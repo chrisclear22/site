@@ -2,11 +2,13 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Destinatinon Name</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="css/custom.css">
-   <link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+   <link href="css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="css/full-slider.css">
+   <link rel="stylesheet" type="text/css" href="css/custom.css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
      <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -18,41 +20,13 @@
 
 <body>
     <!-- Start of NavBar -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <img src="_images/leaptrip_logo_orange_bg_clear.png" alt="">
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-            <li><a href="#">Home <span class="sr-only">(current)</span></a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Dropdown</a></li>
-          </ul>
-          <form class="navbar-form navbar-right" role="search">
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Search">
-            </div>
-            <button type="submit" class="btn btn-default">Submit</button>
-          </form>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
-    </nav>
+  <?php include("navbar.php"); ?>
         <!-- End of NavBar -->
     <div class="container top_container">
         <div class="row">
             <div class="col-xs-12 col-sm-9 col-med-9 col-lg-9">
                 <div class="hero-unit">
-                
+                <img src="_images/bora_bora.jpg">
                 </div>
             </div>
             <div class="col-xs-12 col-sm-3 col-med-3 col-med-3">

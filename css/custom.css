@@ -17,7 +17,8 @@ h1{
 	margin-top:0px;
 }
 nav img{
-max-width: 200px;
+max-width: 150px;
+margin-top: 20px;
 }
 .dropdownmenu > li > a {
    text-align: center;
@@ -121,7 +122,6 @@ footer p{
 .destination h1{
 	margin:0px;
 }
-
  .destination div.row{
 	color: black;
 	margin-bottom: 4em;
@@ -152,6 +152,9 @@ footer p{
 	max-width: 365px;
 	position: relative;
 	margin: auto;
+}
+nav img{
+	margin: 0px;
 }
 
 #intro { 
@@ -223,7 +226,9 @@ div.row{
 .carousel-caption{
 	bottom: 150px;
 }
-
+.tron{
+	max-height: 500px;
+}
 
 /* --------- Paralax Scolling ----------- */
 

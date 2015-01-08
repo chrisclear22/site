@@ -131,9 +131,5 @@
     <!---- Start of Footer ---->
 <?php include("footer.php"); ?>
 	<!---- End of Footer ---->
-
-<!---- Start Script ---->
-<?php include("script.php"); ?>
-<!----- End Script ---->
 </body>
 </html>
