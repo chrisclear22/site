@@ -1,0 +1,264 @@
+ /* Color Pallete */
+
+
+ /* 
+ Orange  ----------  #f15d22
+
+ Blue    ----------  #00aeef
+
+
+*/ 
+
+/* NavBar Styles */
+h1{
+	text-align: center;
+	margin-bottom: 0px;
+	color: #333;
+	margin-top:0px;
+}
+nav img{
+max-width: 200px;
+}
+.dropdownmenu > li > a {
+   text-align: center;
+
+}
+ .navbar.navbar-fixed-top{
+    background: #333;
+}
+.nav li a{
+	color: #00aeef;
+}
+
+/* Slider Styles */
+.carousel-inner img{
+	width: 100%;
+}
+.carousel-caption{
+	line-height: 3em;
+}
+
+/* Row Containing Locations */
+.container.imgs{
+	max-width: 1280px;
+	margin: auto;
+	position: relative;
+}
+.container.top{
+	z-index: 2;
+	bottom: 40px;
+}
+
+.container.imgs img{
+	margin-bottom: 4em;
+}
+
+div.img-caption{
+	position:relative;
+	text-align: center;
+	bottom: 270px;
+	
+	color: white;
+}
+
+
+
+
+
+
+}/* ------------------*/
+
+
+.image_caption {
+	position: relative;
+	bottom: 285px;
+	color: white;
+}
+div.img-caption p{
+	font-size: 1.5em;}
+
+div.img-caption.large{
+	left: 120px;
+}
+div.img-caption button{
+	background-color: #00aeef;
+}
+div.img-caption button:hover{
+	background-color: #f15d22;
+	color: #fff;
+}
+
+/* Row of Featured Clients */
+.container.featured{
+	background-color: #f15d22;
+	width: 100%;
+	color: white;
+}
+.container.featured img{
+	padding: 10px 0px 10px;
+}
+
+.gigantic {
+margin-top: 10%; 
+height: auto; 
+font-size:2em; 
+} 
+q:before { 
+content: '\201C'; 
+font-size:350%;
+font-family: Times New Roman; 
+padding-right: 10px; 
+color: #00aeef;
+} 
+q:after { 
+content: '\201D'; 
+font-size:350%; 
+padding-left: 20px;
+font-family: Times New Roman; 
+color: #00aeef;
+}
+
+/* Footer Styles */
+.container.end{
+	background-color: #333;
+	width: 100%;
+	height: 50px;
+}
+footer img{
+	max-width: 50px;
+	float: right;
+	margin-left: 5px
+}
+footer p{
+	padding-top: 30px;
+	margin-bottom: 0px;
+}
+
+/* Destination Page Styles */
+
+.destination h1{
+	margin:0px;
+}
+
+ .destination div.row{
+	color: black;
+	margin-bottom: 4em;
+}
+.destination img{
+	box-shadow: 3px 4px 5px;
+}
+#destination{
+	background-color: #fff;
+	padding: 100px 0px; 
+}
+/* tours Page Styles */
+
+.tours img{
+	box-shadow: 3px 4px 5px;
+}
+/* Extra small devices (phones,  767px and lower) */
+@media all and (max-width: 767px){ .carousel, .item, .active{
+	max-height: 235px;
+} 
+nav img{
+max-width: 125px;
+}
+.container.imgs{
+	max-width: 365px;
+	position: relative;
+	margin: auto;
+}
+
+}
+div.navbar-collapse{
+	background-color: #333;
+}
+#intro { 
+			background: url(../_images/cancun1.jpg) 50% 0 fixed; 	   
+		}
+
+#about { 
+			background: url(../_images/cancun2.jpg) 50% 0 fixed;
+			padding: 100px 0px; 
+		}
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media all and (min-width: 768px) { .carousel, .item, .active{
+	max-height: 300px;
+}
+.carousel-caption{
+	bottom: 50px;
+}
+
+.featured img{
+	max-width: 250px;
+ }
+
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media all and (min-width: 769px) and (max-width: 1199px) { .carousel, .item, .active{
+	max-height: 400px;
+}
+.carousel-caption{
+	bottom: 100px;
+}
+.destination{
+	max-width: 965px;
+	position: relative;
+	margin--right:0px;
+}
+
+.featured img{
+	max-width: 250px;
+}
+#intro { 
+			background: url(../_images/cancun1.jpg) 50% 0 fixed; 	   
+		}
+
+#about { 
+			background: url(../_images/cancun2.jpg) 50% 0 fixed;
+			padding: 100px 0px; 
+		}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media all and (min-width: 1200px) { .carousel, .item, .active{
+	max-height: 600px;
+} 
+.carousel, .item, .active{
+	max-height: 500px;
+} 
+
+.carousel-caption{
+	bottom: 150px;
+}
+
+
+/* --------- Paralax Scolling ----------- */
+
+#intro { 
+			background: url(../_images/cancun1.jpg) 50% 0 fixed; 
+			height: 65%;  
+			margin: 0 auto; 
+		    width: 100%; 
+		    position: relative; 
+		    padding-bottom: 100px;
+		}
+	#about { 
+			background: url(../_images/cancun2.jpg) 50% 0 fixed; 
+			height: auto;
+			margin: 0 auto; 
+		    width: 100%; 
+		    position: relative; 
+
+		    padding: 100px 0;
+		    color: #fff;
+		}
+
+
+
+}
