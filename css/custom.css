@@ -37,6 +37,7 @@ max-width: 200px;
 .carousel-caption{
 	line-height: 3em;
 }
+/*--------------------*/
 
 /* Row Containing Locations */
 .container.imgs{
@@ -49,37 +50,17 @@ max-width: 200px;
 	bottom: 40px;
 }
 
-.container.imgs img{
-	margin-bottom: 4em;
-}
-
 div.img-caption{
 	position:relative;
 	text-align: center;
-	bottom: 270px;
-	
+	bottom: 200px;	
 	color: white;
 }
 
-
-
-
-
-
-}/* ------------------*/
-
-
-.image_caption {
-	position: relative;
-	bottom: 285px;
-	color: white;
-}
 div.img-caption p{
 	font-size: 1.5em;}
 
-div.img-caption.large{
-	left: 120px;
-}
+
 div.img-caption button{
 	background-color: #00aeef;
 }
@@ -87,6 +68,7 @@ div.img-caption button:hover{
 	background-color: #f15d22;
 	color: #fff;
 }
+/* ------------------*/
 
 /* Row of Featured Clients */
 .container.featured{
@@ -157,11 +139,14 @@ footer p{
 	box-shadow: 3px 4px 5px;
 }
 /* Extra small devices (phones,  767px and lower) */
-@media all and (max-width: 767px){ .carousel, .item, .active{
+@media all and (max-width: 767px){ 
+
+.carousel, .item, .active{
 	max-height: 235px;
 } 
-nav img{
-max-width: 125px;
+.carousel-caption{
+	bottom: 30px;
+	line-height: 1em;
 }
 .container.imgs{
 	max-width: 365px;
@@ -169,9 +154,22 @@ max-width: 125px;
 	margin: auto;
 }
 
+#intro { 
+			background: url(../_images/cancun1.jpg) 50% 0 fixed; 	   
+		}
+
+#about { 
+			background: url(../_images/cancun2.jpg) 50% 0 fixed;
+			padding: 100px 0px; 
+		}
 }
-div.navbar-collapse{
-	background-color: #333;
+
+@media all and (min-width: 768px) and (max-width:991px){
+.carousel, .item, .active{
+	max-height: 450px;
+} 
+.carousel-caption{
+	bottom: 50px;
 }
 #intro { 
 			background: url(../_images/cancun1.jpg) 50% 0 fixed; 	   
@@ -184,34 +182,25 @@ div.navbar-collapse{
 }
 
 
-/* Small devices (tablets, 768px and up) */
-@media all and (min-width: 768px) { .carousel, .item, .active{
-	max-height: 300px;
+
+/* Medium devices (desktops, 992px and up) */
+@media all and (min-width: 992px) and (max-width: 1199px) { 
+
+.carousel, .item, .active{
+	max-height: 450px;
 }
 .carousel-caption{
 	bottom: 50px;
 }
 
-.featured img{
-	max-width: 250px;
- }
-
-
+div.col-lg-4.col-med-4{
+	max-width: 380px;
+	margin: auto;
 }
-
-/* Medium devices (desktops, 992px and up) */
-@media all and (min-width: 769px) and (max-width: 1199px) { .carousel, .item, .active{
-	max-height: 400px;
+div.row{
+	max-width: 80%;
+	margin: auto;
 }
-.carousel-caption{
-	bottom: 100px;
-}
-.destination{
-	max-width: 965px;
-	position: relative;
-	margin--right:0px;
-}
-
 .featured img{
 	max-width: 250px;
 }
@@ -226,11 +215,9 @@ div.navbar-collapse{
 }
 
 /* Large devices (large desktops, 1200px and up) */
-@media all and (min-width: 1200px) { .carousel, .item, .active{
-	max-height: 600px;
-} 
+@media all and (min-width: 1200px) { 
 .carousel, .item, .active{
-	max-height: 500px;
+	max-height: 650px;
 } 
 
 .carousel-caption{
