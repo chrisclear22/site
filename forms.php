@@ -26,16 +26,36 @@
     <div class="container">
 <form role="form">
     <div class="form-group">
-    <label for="firsName">First Name</label>
-    <input type="text" class="form-control" id="firsName" placeholder="First">
+    <label for="firstName">First Name</label>
+    <input type="text" class="form-control" name="firstName"id="firsName" placeholder="First" value="<?php if (isset($_POST['firstName'])) echo $_POST['firstName']; ?>" required>
   </div>
   <div class="form-group">
     <label for="lastName">Last Name</label>
-    <input type="text" class="form-control" id="lastName" placeholder="Last">
+    <input type="text" class="form-control" name="lastName" id="lastName" placeholder="Last" value="<?php if (isset($_POST['lastName'])) echo $_POST['lastName']; ?>" required>
   </div>
   <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+    <label for="address">Street Address</label>
+    <input type="text" class="form-control" id="address" name="address" value="<?php if (isset($_POST['address'])) echo $_POST['address']; ?>" required>
+  </div>
+  <div class="form-group">
+    <label for="city">City</label>
+    <input type="text" class="form-control" id="city" name="city" value="<?php if (isset($_POST['city'])) echo $_POST['city']; ?>" required>
+  </div>
+  <div class="form-group">
+    <label for="state">State</label>
+    <input type="text" class="form-control" id="state" name="state" value="<?php if (isset($_POST['city'])) echo $_POST['city']; ?>" required>
+  </div>
+  <div class="form-group">
+    <label for="zip">Zip Code</label>
+    <input type="email" class="form-control" id="zip" name="zip"value="<?php if (isset($_POST['city'])) echo $_POST['city']; ?>" required>
+  </div>
+   <div class="form-group">
+    <label for="phone">Phone Number</label>
+    <input type="email" class="form-control" id="phone" name="phone"value="<?php if (isset($_POST['city'])) echo $_POST['city']; ?>">
+  </div>
+  <div class="form-group">
+    <label for="Email1">Email address</label>
+    <input type="email" class="form-control" id="Email1" name="Email" placeholder="Enter email" value="<?php if (isset($_POST['Email'])) echo $_POST['Email']; ?>" required>
   </div>
   
 </form>
