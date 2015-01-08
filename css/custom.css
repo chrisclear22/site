@@ -69,6 +69,14 @@ div.img-caption button:hover{
 	background-color: #f15d22;
 	color: #fff;
 }
+
+a{
+	color: white;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
 /* ------------------*/
 
 /* Row of Featured Clients */
@@ -133,8 +141,10 @@ footer p{
 	background-color: #fff;
 	padding: 100px 0px; 
 }
-/* tours Page Styles */
-
+/* Packages Page Styles */
+.packages{
+	top: 4em;
+}
 .tours img{
 	box-shadow: 3px 4px 5px;
 }

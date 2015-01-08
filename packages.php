@@ -10,18 +10,15 @@
    <link rel="stylesheet" type="text/css" href="css/custom.css">
 </head>
 <body>
-	
-	<!---- Start of NavBar ---->
+		<!---- Start of NavBar ---->
 <?php include("navbar.php"); ?>
 	<!---- End of NavBar ---->
 
-	<!---- Start of Slider ---->
-<?php include("slider.php"); ?>
-    <!-- END OF SLIDER -->
-<!---- Start of First Row ---->
+<?php include("jumbotron.php"); ?>
+
 <div class="index_main_content_wrapper">
 <section id="intro" data-speed="6" data-type="background">
-    <div class="container imgs top">
+    <div class="container packages imgs top">
         <div class="row">
             <div class="col-lg-4 col-med-4 col-sm-6 col-xs-12">
                 <img class="img-thumbnail"src="box_images/bora_bora.jpg">
@@ -71,34 +68,6 @@
                     <a href="forms.php"><button type="button" class="btn center-block">Book Now</button></a>
                 </div>      
             </div>
-        </div>
-        
-        </div>
-</section>
-   <!---- End of First Row ---->
-   <section id="intro" data-speed="6" data-type="background">
-<h1>Client Quotes</h1>
-</section>
-   <!---- Start of Second Row ---->     
-        <div class="container featured">
-        <div class="row">
-            <div class="col-lg-4 col-med-4 col-sm-4 col-xs-12">
-                <img class="center-block" src="clients/thumbs_up.jpg">
-            </div>
-            <div class="col-lg-8 col-med-8 col-sm-8 col-xs-12">
-                <blockquote class="gigantic center-block">
-                    <p>This site is so awesome! It was very simple and easy to navigate through and the prices are fantastic</p><footer>Melissa Mathers<cite> Mother of 2</cite></footer>
-                </blockquote>
-            </div>
-        </div>
-        </div>
-
-    <!---- End of Second Row ---->
-
-    <!---- Start of Third Row ---->
-<section id="about" data-speed="2" data-type="background">
-        <div class="container imgs bottom">
-        <div class="row">
             <div class="col-lg-4 col-med-4 col-sm-6 col-xs-12">
                 <img class="img-thumbnail"src="box_images/paris.jpg">
                 <div class="img-caption text-center">
@@ -123,13 +92,9 @@
                     <a href="forms.php"><button type="button" class="btn center-block">Book Now</button></a>
                 </div>  
             </div>
-        </div>
+        </div> 
         </div>
 </section>
-    <!---- End of Third Row ---->
-
-    <!---- Start of Footer ---->
 <?php include("footer.php"); ?>
-	<!---- End of Footer ---->
 </body>
 </html>

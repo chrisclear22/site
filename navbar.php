@@ -14,9 +14,9 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="#">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="index.php">Home <span class="sr-only">(current)</span></a></li>
         <li><a href="#">About</a></li>
-        <li><a href="#">Packages</a></li>
+        <li><a href="packages.php">Packages</a></li>
       </ul>
       <form class="navbar-form navbar-right" role="search">
         <div class="form-group">

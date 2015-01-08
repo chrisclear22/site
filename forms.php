@@ -94,21 +94,38 @@
     </select>
   </div>
   <div class="col-xs-2">
-    <label for="zip">Zip Code</label>
+    <label for="zip">Zip</label>
     <input type="email" class="form-control" id="zip" name="zip"value="<?php if (isset($_POST['city'])) echo $_POST['city']; ?>" required>
   </div>
   </div>
   <div class="row">
-   <div class="col-xs-3">
-    <label for="phone">Phone Number</label>
+   <div class="col-xs-5">
+    <label for="phone">Phone</label>
     <input type="email" class="form-control" id="phone" name="phone"value="<?php if (isset($_POST['city'])) echo $_POST['city']; ?>">
   </div>
   <div class="col-xs-5">
-    <label for="Email1">Email address</label>
+    <label for="Email1">Email</label>
     <input type="email" class="form-control" id="Email1" name="Email" placeholder="Enter email" value="<?php if (isset($_POST['Email'])) echo $_POST['Email']; ?>" required>
   </div>
   </div>
   </fieldset>
+  <fieldset>
+  <div class="col-xs-5">
+    <legend>Destination Details</legend>
+    <label for="destination">Destination</label>
+    <select class="form-control" name="destination" id="destination">
+      <option value="Bora Bora">Bora Bora</option>
+      <option value="Cancun">Cancun</option>
+      <option value="Costa Rica">Costa Rica</option>
+      <option value="Kauai">Kauai</option>
+      <option value="Las Vegas">Las Vegas</option>
+      <option value="New York">New York</option>
+      <option value="Paris">Paris</option>
+      <option value="Venice">Venice</option>
+      <option value="Dubai">Dubai</option>
+    </select>
+  </fieldset>
+ </div>
   
 </form>
 </div>
