@@ -141,12 +141,28 @@ footer p{
 	background-color: #fff;
 	padding: 100px 0px; 
 }
+/*---------------------*/
+
 /* Packages Page Styles */
 .packages{
 	top: 4em;
 }
 .tours img{
 	box-shadow: 3px 4px 5px;
+}
+/*-----------------------*/
+
+/*   Forms Page Styles */
+legend{
+	color: white;
+}
+form{
+	padding-bottom: 4em;
+	background-color: #666;
+	color: white;
+}
+body{
+	background-color: #666;
 }
 /* Extra small devices (phones,  767px and lower) */
 @media all and (max-width: 767px){ 
