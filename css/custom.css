@@ -20,6 +20,9 @@ nav img{
 max-width: 150px;
 margin-top: 20px;
 }
+nav form{
+	background-color: #333;
+}
 .dropdownmenu > li > a {
    text-align: center;
 
@@ -163,6 +166,18 @@ form{
 }
 body{
 	background-color: #666;
+}
+div.col-xs-3 #expire{
+	float: right;
+}
+.req{
+	color: red;
+}
+form{
+	margin-top: 20px;
+}
+form.book input, form.book select{
+	margin-bottom: 15px;
 }
 /* Extra small devices (phones,  767px and lower) */
 @media all and (max-width: 767px){ 

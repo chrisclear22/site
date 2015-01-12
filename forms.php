@@ -2,12 +2,13 @@
 <html>
 <head>
 	<meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Home</title>
-   <link href="css/bootstrap.min.css" rel="stylesheet">
-   <link rel="stylesheet" type="text/css" href="css/full-slider.css">
-   <link rel="stylesheet" type="text/css" href="css/custom.css">
+ 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<title>Home</title>
+  	<link href="css/bootstrap.min.css" rel="stylesheet">
+  	<link rel="stylesheet" type="text/css" href="css/full-slider.css">
+ 	<link rel="stylesheet" type="text/css" href="css/custom.css">
+</head>
 <body>
 	
 	<!---- Start of NavBar ---->
@@ -16,30 +17,30 @@
 
  <?php include("jumbotron.php"); ?>
     <div class="container">
-<form role="form" class="">
+<form role="form" class="book">
   <fieldset>
   <legend>Personal Information</legend>
   <div class="row">
     <div class="col-xs-5">
-    <label for="firstName">First Name</label>
+    <label for="firstName">First Name<span class="req"> *</span></label>
     <input type="text" class="form-control" name="firstName"id="firsName" placeholder="First" value="<?php if (isset($_POST['firstName'])) echo $_POST['firstName']; ?>" required>
   </div>
   <div class="col-xs-5">
-    <label for="lastName">Last Name</label>
+    <label for="lastName">Last Name <span class="req"> *</span></label>
     <input type="text" class="form-control" name="lastName" id="lastName" placeholder="Last" value="<?php if (isset($_POST['lastName'])) echo $_POST['lastName']; ?>" required>
   </div>
   <div class="col-xs-5">
-    <label for="address">Street Address</label>
+    <label for="address">Street Address<span class="req"> *</span></label>
     <input type="text" class="form-control" id="address" name="address" value="<?php if (isset($_POST['address'])) echo $_POST['address']; ?>" required>
   </div>
   </div>
   <div class="row">
   <div class="col-xs-5">
-    <label for="city">City</label>
+    <label for="city">City<span class="req"> *</span></label>
     <input type="text" class="form-control" id="city" name="city" value="<?php if (isset($_POST['city'])) echo $_POST['city']; ?>" required>
   </div>
   <div class="col-xs-3">
-    <label for="state">State</label>
+    <label for="state">State<span class="req"> *</span></label>
     <select class="form-control" id="state" name="state" required>
       <option value="Alabama">AL</option>
       <option value="Alaska">AK</option>
@@ -94,7 +95,7 @@
     </select>
   </div>
   <div class="col-xs-2">
-    <label for="zip">Zip</label>
+    <label for="zip">Zip<span class="req"> *</span></label>
     <input type="email" class="form-control" id="zip" name="zip"value="<?php if (isset($_POST['city'])) echo $_POST['city']; ?>" required>
   </div>
   </div>
@@ -104,7 +105,7 @@
     <input type="email" class="form-control" id="phone" name="phone"value="<?php if (isset($_POST['city'])) echo $_POST['city']; ?>">
   </div>
   <div class="col-xs-5">
-    <label for="Email1">Email</label>
+    <label for="Email1">Email<span class="req"> *</span></label>
     <input type="email" class="form-control" id="Email1" name="Email" placeholder="Enter email" value="<?php if (isset($_POST['Email'])) echo $_POST['Email']; ?>" required>
   </div>
   </div>
@@ -113,7 +114,7 @@
   <legend>Destination Details</legend>
   <div class="row">
   <div class="col-xs-4">
-    <label for="destination">Destination</label>
+    <label for="destination">Destination<span class="req"> *</span></label>
     <select class="form-control" name="destination" id="destination" required>
       <option value="Bora Bora">Bora Bora</option>
       <option value="Cancun">Cancun</option>
@@ -127,17 +128,17 @@
     </select>
     </div>
     <div class="col-xs-4">
-    <label for="departure">Departure Date</label>
+    <label for="departure">Departure Date<span class="req"> *</span></label>
     <input class="form-control" type="date" name="departure" id="departure" required>
     </div>
     <div class="col-xs-4">
-    <label for="return">Return Date</label>
+    <label for="return">Return Date<span class="req"> *</span></label>
     <input class="form-control" type="date" name="return" id="return">
     </div>
     </div>
     <div class="row">
     <div class="col-xs-5">
-    <label for="from">Flying From</label>
+    <label for="from">Flying From<span class="req"> *</span></label>
     <select class="form-control" name="from" id="from" required>
 		<option value="ABR"> 	Aberdeen, SD (ABR) 	</option>	   
 		<option value="ABI">	Abilene, TX (ABI)	</option>	   
@@ -876,13 +877,13 @@
     </select>
     </div>
     <div class="col-xs-5">
-    <label for="to">Flying To</label>
+    <label for="to">Flying To<span class="req"> *</span></label>
     <input class="form-control" type="text" name="to" id="to" required>
     </div>
     </div>
     <div class="row">
     <div class="col-xs-3">
-    <label for="adult">Adults</label>
+    <label for="adult">Adults<span class="req"> *</span></label>
     <select class="form-control"name="adult" id="adult">
     	<option value="1">1</option>
     	<option value="2">2</option>
@@ -909,7 +910,7 @@
  	<legend>Purchase Information</legend>
  	<div class="row">
  	<div class="col-xs-4">
- 	<label for="type">Card Type</label>
+ 	<label for="type">Card Type<span class="req"> *</span></label>
  	<select class="form-control" name="type" id="type" required>
  		<option value="visa">Visa</option>
  		<option value="master-card">Master Card</option>
@@ -918,15 +919,50 @@
  	</select>
  	</div>
  	<div class="col-xs-5">
- 	<label for="card">Card Number</label>
- 	<input class="form-control" type="text" name="card" id="card" required>
+ 	<label for="card">Card Number<span class="req"> *</span></label>
+ 	<input class="form-control" type="text" name="card" id="card" placeholder="5555-0000-3333-0000" readonly="readonly" required>
  	</div>
  	<div class="col-xs-3">
- 	<label for="code">CCV Code</label>
+ 	<label for="code">CCV Code<span class="req"> *</span></label>
  	<input class="form-control" type="text" name="code" id="code" required>
+ 	</div>
+ 	<div class="col-xs-3">
+ 		<label for="expire">Month<span class="req"> *</span></label>
+ 		<select class="form-control" name="expire" id="expire" required>
+ 			<option value="1">01 Jan</option>
+ 			<option value="2">02 Feb</option>
+ 			<option value="3">03 Mar</option>
+ 			<option value="4">04 Apr</option>
+ 			<option value="5">05 May</option>
+ 			<option value="6">06 Jun</option>
+ 			<option value="7">07 Jul</option>
+ 			<option value="8">08 Aug</option>
+ 			<option value="9">09 Sep</option>
+ 			<option value="10">10 Oct</option>
+ 			<option value="11">11 Nov</option>
+ 			<option value="12">12 Dec</option>
+ 		</select>
+ 	</div>
+ 	<div class="col-xs-3">
+ 	<label for="expire">Year<span class="req"> *</span></label>
+ 		<select class="form-control" name="expire" id="expire" required>
+ 			<option value="2015">2015</option>
+ 			<option value="2016">2016</option>
+ 			<option value="2017">2017</option>
+ 			<option value="2018">2018</option>
+ 			<option value="2019">2019</option>
+ 			<option value="2020">2020</option>
+ 			<option value="2021">2021</option>
+ 			<option value="2022">2022</option>
+ 			<option value="2023">2023</option>
+ 			<option value="2024">2024</option>
+ 			<option value="2025">2025</option>
+ 			<option value="2026">2026</option>
+ 		</select>
  	</div>
  	</div>
  </fieldset> 
+	<button type="submit" class="btn btn-default right">BOOK NOW</button>
 </form>
 </div>
 
