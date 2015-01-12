@@ -33,7 +33,9 @@
 <div class="index_main_content_wrapper">
 <section id="tweed" data-speed="6" data-type="background">
 <div class="container">
-<h1 class="text-center">Welcome</h1>
+<hr>
+<h1 class="text-center">Leap Trip</h1>
+<hr>
 </div>
 </section>
 </div>
