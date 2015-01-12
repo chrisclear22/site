@@ -6,6 +6,11 @@
 
  Blue    ----------  #00aeef
 
+ Light Grey	-----------	 #333
+
+ Dark Grey ------------ #666 
+
+ White	-----------  #fff
 
 */ 
 
@@ -13,8 +18,8 @@
 h1{
 	text-align: center;
 	margin-bottom: 0px;
-	color: #333;
-	margin-top:0px;
+	color: #fff;
+	margin-top:15px;
 }
 nav img{
 max-width: 150px;
@@ -42,6 +47,7 @@ nav form{
 	line-height: 3em;
 }
 /*--------------------*/
+
 
 /* Row Containing Locations */
 .container.imgs{
@@ -81,6 +87,7 @@ a:hover{
 	text-decoration: none;
 }
 /* ------------------*/
+
 
 /* Row of Featured Clients */
 .container.featured{
@@ -127,6 +134,8 @@ footer p{
 	padding-top: 30px;
 	margin-bottom: 0px;
 }
+/*-------------------*/
+
 
 /* Destination Page Styles */
 
@@ -146,6 +155,7 @@ footer p{
 }
 /*---------------------*/
 
+
 /* Packages Page Styles */
 .packages{
 	top: 4em;
@@ -155,17 +165,18 @@ footer p{
 }
 /*-----------------------*/
 
+
 /*   Forms Page Styles */
 legend{
 	color: white;
 }
-form{
+form.book{
 	padding-bottom: 4em;
-	background-color: #666;
+	background-image: url(../_images/tweed.png);
 	color: white;
 }
 body{
-	background-color: #666;
+	background-image: url(../_images/tweed.png);
 }
 div.col-xs-3 #expire{
 	float: right;
@@ -179,6 +190,14 @@ form{
 form.book input, form.book select{
 	margin-bottom: 15px;
 }
+/*---------------------*/
+
+
+/* About Page Styles */
+#tweed { 
+			background: url(../_images/tweed.png) 50% 0 fixed; 	   
+		}
+
 /* Extra small devices (phones,  767px and lower) */
 @media all and (max-width: 767px){ 
 

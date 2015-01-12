@@ -77,7 +77,7 @@
 </section>
    <!---- End of First Row ---->
    <section id="intro" data-speed="6" data-type="background">
-<h1>Client Quotes</h1>
+
 </section>
    <!---- Start of Second Row ---->     
         <div class="container featured">

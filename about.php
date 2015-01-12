@@ -30,6 +30,15 @@
 
 <?php include("jumbotron.php"); ?>
 
+<div class="index_main_content_wrapper">
+<section id="tweed" data-speed="6" data-type="background">
+<div class="container">
+<h1 class="text-center">Welcome</h1>
+</div>
+</section>
+</div>
+
+
     <!-- Start of Footer -->
 <?php include("footer.php"); ?>
 </body>
