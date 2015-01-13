@@ -19,7 +19,7 @@ h1{
 	text-align: center;
 	margin-bottom: 0px;
 	color: #fff;
-	margin-top:0px;
+	margin-top:20px;
 }
 nav img{
 max-width: 150px;
@@ -78,7 +78,13 @@ div.img-caption button:hover{
 	background-color: #f15d22;
 	color: #fff;
 }
-
+#intro span, #about span{
+	background-color: #00aeef;
+	max-width: 100px;
+}
+#intro span:hover, #about span:hover{
+	background-color: #f15d22;
+}
 a{
 	color: white;
 	text-decoration: none;
@@ -133,6 +139,7 @@ footer img{
 footer p{
 	padding-top: 30px;
 	margin-bottom: 0px;
+	color: #fff;
 }
 /*-------------------*/
 
@@ -174,6 +181,7 @@ form.book{
 	padding-bottom: 4em;
 	background-image: url(../_images/tweed.png);
 	color: white;
+	margin-top: 20px;
 }
 body{
 	background-image: url(../_images/tweed.png);
@@ -185,7 +193,7 @@ div.col-xs-3 #expire{
 	color: red;
 }
 form{
-	margin-top: 20px;
+	
 }
 form.book input, form.book select{
 	margin-bottom: 15px;
@@ -197,7 +205,10 @@ form.book input, form.book select{
 #tweed { 
 			background: url(../_images/tweed.png) 50% 0 fixed; 	   
 		}
-
+#tweed p{
+	color: #fff;
+	line-height: 2em;
+}
 /* Extra small devices (phones,  767px and lower) */
 @media all and (max-width: 767px){ 
 
@@ -216,7 +227,9 @@ form.book input, form.book select{
 nav img{
 	margin: 0px;
 }
-
+.navbar-default .navbar-nav>li>a{
+	line-height: 20px;
+}
 #intro { 
 			background: url(../_images/cancun1.jpg) 50% 0 fixed; 	   
 		}

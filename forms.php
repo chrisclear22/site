@@ -11,9 +11,9 @@
 </head>
 <body>
 	
-	<!---- Start of NavBar ---->
+	<!-- Start of NavBar -->
 <?php include("navbar.php"); ?>
-	<!---- End of NavBar ---->
+	<!-- End of NavBar -->
 
  <?php include("jumbotron.php"); ?>
     <div class="container">
@@ -23,7 +23,7 @@
   <div class="row">
     <div class="col-xs-5">
     <label for="firstName">First Name<span class="req"> *</span></label>
-    <input type="text" class="form-control" name="firstName"id="firsName" placeholder="First" value="<?php if (isset($_POST['firstName'])) echo $_POST['firstName']; ?>" required>
+    <input type="text" class="form-control" name="firstName" id="firstName" placeholder="First" value="<?php if (isset($_POST['firstName'])) echo $_POST['firstName']; ?>" required>
   </div>
   <div class="col-xs-5">
     <label for="lastName">Last Name <span class="req"> *</span></label>
@@ -42,6 +42,7 @@
   <div class="col-xs-3">
     <label for="state">State<span class="req"> *</span></label>
     <select class="form-control" id="state" name="state" required>
+      <option value="">-- Select State --</option>
       <option value="Alabama">AL</option>
       <option value="Alaska">AK</option>
       <option value="Arizona">AZ</option>
@@ -96,13 +97,13 @@
   </div>
   <div class="col-xs-2">
     <label for="zip">Zip<span class="req"> *</span></label>
-    <input type="email" class="form-control" id="zip" name="zip"value="<?php if (isset($_POST['city'])) echo $_POST['city']; ?>" required>
+    <input type="email" class="form-control" id="zip" name="zip" value="<?php if (isset($_POST['city'])) echo $_POST['city']; ?>" required>
   </div>
   </div>
   <div class="row">
    <div class="col-xs-5">
     <label for="phone">Phone</label>
-    <input type="email" class="form-control" id="phone" name="phone"value="<?php if (isset($_POST['city'])) echo $_POST['city']; ?>">
+    <input type="email" class="form-control" id="phone" name="phone" value="<?php if (isset($_POST['city'])) echo $_POST['city']; ?>">
   </div>
   <div class="col-xs-5">
     <label for="Email1">Email<span class="req"> *</span></label>
@@ -116,6 +117,7 @@
   <div class="col-xs-4">
     <label for="destination">Destination<span class="req"> *</span></label>
     <select class="form-control" name="destination" id="destination" required>
+    <option value="">-- Select Destination --</option>
       <option value="Bora Bora">Bora Bora</option>
       <option value="Cancun">Cancun</option>
       <option value="Costa Rica">Costa Rica</option>
@@ -140,6 +142,7 @@
     <div class="col-xs-5">
     <label for="from">Flying From<span class="req"> *</span></label>
     <select class="form-control" name="from" id="from" required>
+    <option value="">-- Select Air-Port --</option>
 		<option value="ABR"> 	Aberdeen, SD (ABR) 	</option>	   
 		<option value="ABI">	Abilene, TX (ABI)	</option>	   
 		<option value="ADK">	Adak Island, AK (ADK)	</option>	   
@@ -884,7 +887,7 @@
     <div class="row">
     <div class="col-xs-3">
     <label for="adult">Adults<span class="req"> *</span></label>
-    <select class="form-control"name="adult" id="adult">
+    <select class="form-control" name="adult" id="adult">
     	<option value="1">1</option>
     	<option value="2">2</option>
     	<option value="3">3</option>
@@ -895,7 +898,7 @@
     </div>
     <div class="col-xs-3">
     <label for="child">Children</label>
-    <select class="form-control"name="child" id="child">
+    <select class="form-control" name="child" id="child">
     	<option value="0">0</option>
     	<option value="1">1</option>
     	<option value="2">2</option>
@@ -912,6 +915,7 @@
  	<div class="col-xs-4">
  	<label for="type">Card Type<span class="req"> *</span></label>
  	<select class="form-control" name="type" id="type" required>
+ 	<option value="">-- Select Type --</option>
  		<option value="visa">Visa</option>
  		<option value="master-card">Master Card</option>
  		<option value="discovery">Discovery</option>
@@ -927,8 +931,9 @@
  	<input class="form-control" type="text" name="code" id="code" required>
  	</div>
  	<div class="col-xs-3">
- 		<label for="expire">Month<span class="req"> *</span></label>
- 		<select class="form-control" name="expire" id="expire" required>
+ 		<label for="month">Month<span class="req"> *</span></label>
+ 		<select class="form-control" name="month" id="month" required>
+ 			<option value="">-- Month --</option>
  			<option value="1">01 Jan</option>
  			<option value="2">02 Feb</option>
  			<option value="3">03 Mar</option>
@@ -944,8 +949,9 @@
  		</select>
  	</div>
  	<div class="col-xs-3">
- 	<label for="expire">Year<span class="req"> *</span></label>
- 		<select class="form-control" name="expire" id="expire" required>
+ 	<label for="year">Year<span class="req"> *</span></label>
+ 		<select class="form-control" name="year" id="year" required>
+ 			<option value="">-- Year --</option>
  			<option value="2015">2015</option>
  			<option value="2016">2016</option>
  			<option value="2017">2017</option>
@@ -966,9 +972,9 @@
 </form>
 </div>
 
-    <!---- Start of Footer ---->
+    <!-- Start of Footer -->
 <?php include("footer.php"); ?>
-	<!---- End of Footer ---->
+	<!-- End of Footer -->
 
 
 </body>

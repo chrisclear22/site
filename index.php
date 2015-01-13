@@ -11,79 +11,80 @@
 </head>
 <body>
 	
-	<!---- Start of NavBar ---->
+	<!-- Start of NavBar -->
 <?php include("navbar.php"); ?>
-	<!---- End of NavBar ---->
+	<!-- End of NavBar -->
 
-	<!---- Start of Slider ---->
+	<!-- Start of Slider -->
 <?php include("slider.php"); ?>
     <!-- END OF SLIDER -->
-<!---- Start of First Row ---->
+
+<!-- Start of First Row -->
 <div class="index_main_content_wrapper">
 <section id="intro" data-speed="6" data-type="background">
     <div class="container imgs top">
         <div class="row">
             <div class="col-lg-4 col-med-4 col-sm-6 col-xs-12">
-                <img class="img-thumbnail"src="box_images/bora_bora.jpg">
+                <img class="img-thumbnail" src="box_images/bora_bora.jpg" alt="bora bora">
             <div class="img-caption">
                     <h2>Bora Bora</h2>
                     <p>$1,500</p>
-                    <a href="forms.php"><button type="button" class="btn center-block">Book Now</button></a>
+                    <a href="forms.php"><span class="btn center-block">Book Now</span></a>
                 </div>      
             </div>
             <div class="col-lg-4 col-med-4 col-sm-6 col-xs-12">
-                <img class="img-thumbnail"src="box_images/cancun.jpg">
+                <img class="img-thumbnail" src="box_images/cancun.jpg" alt="cancun">
                 <div class="img-caption">
                     <h2>Cancun</h2>
                     <p>$1,500</p>
-                    <a href="forms.php"><button type="button" class="btn center-block">Book Now</button></a>
+                    <a href="forms.php"><span class="btn center-block">Book Now</span></a>
                 </div>      
             </div>
             <div class="col-lg-4 col-med-4 col-sm-6 col-xs-12">
-                <img class="img-thumbnail"src="box_images/costa_rica1.jpg">
+                <img class="img-thumbnail" src="box_images/costa_rica1.jpg" alt="costa rica">
                 <div class="img-caption">
                     <h2>Costa Rica</h2>
                     <p>$1,500</p>
-                    <a href="forms.php"><button type="button" class="btn center-block">Book Now</button></a>
+                    <a href="forms.php"><span class="btn center-block">Book Now</span></a>
                 </div>      
             </div>
             <div class="col-lg-4 col-med-4 col-sm-6 col-xs-12">
-                <img class="img-thumbnail"src="box_images/hawaii_kauai1.jpg">
+                <img class="img-thumbnail" src="box_images/hawaii_kauai1.jpg" alt="hawaii">
                 <div class="img-caption">
                      <h2>Kauai</h2>
                      <p>$1,500</p>
-                     <a href="forms.php"><button type="button" class="btn center-block">Book Now</button></a>
+                     <a href="forms.php"><span class="btn center-block">Book Now</span></a>
                 </div>  
             </div>
             <div class="col-lg-4 col-med-4 col-sm-6 col-xs-12">
-                <img class="img-thumbnail"src="box_images/las_vegas.jpg">
+                <img class="img-thumbnail" src="box_images/las_vegas.jpg" alt="las vegas">
                 <div class="img-caption text-center">
                     <h2>Las Vegas</h2>
                     <p>$1,500</p>
-                    <a href="forms.php"><button type="button" class="btn center-block">Book Now</button></a>
+                    <a href="forms.php"><span class="btn center-block">Book Now</span></a>
                 </div>  
             </div>
             <div class="col-lg-4 col-med-4 col-sm-6 col-xs-12">
-                <img class="img-thumbnail"src="box_images/new_york.jpg">
+                <img class="img-thumbnail" src="box_images/new_york.jpg" alt="new york">
                 <div class="img-caption">
                     <h2>New York</h2>
                     <p>$1,500</p>
-                    <a href="forms.php"><button type="button" class="btn center-block">Book Now</button></a>
+                    <a href="forms.php"><span class="btn center-block">Book Now</span></a>
                 </div>      
             </div>
         </div>
         
         </div>
 </section>
-   <!---- End of First Row ---->
-   <section id="intro" data-speed="6" data-type="background">
+   <!-- End of First Row -->
+   <section id="client" data-speed="6" data-type="background">
 
 </section>
-   <!---- Start of Second Row ---->     
+   <!-- Start of Second Row -->     
         <div class="container featured">
         <div class="row">
             <div class="col-lg-4 col-med-4 col-sm-4 col-xs-12">
-                <img class="center-block" src="clients/thumbs_up.jpg">
+                <img class="center-block" src="clients/thumbs_up.jpg" alt="client image">
             </div>
             <div class="col-lg-8 col-med-8 col-sm-8 col-xs-12">
                 <blockquote class="gigantic center-block">
@@ -93,43 +94,44 @@
         </div>
         </div>
 
-    <!---- End of Second Row ---->
+    <!-- End of Second Row -->
 
-    <!---- Start of Third Row ---->
+    <!-- Start of Third Row -->
 <section id="about" data-speed="2" data-type="background">
         <div class="container imgs bottom">
         <div class="row">
             <div class="col-lg-4 col-med-4 col-sm-6 col-xs-12">
-                <img class="img-thumbnail"src="box_images/paris.jpg">
+                <img class="img-thumbnail" src="box_images/paris.jpg" alt="paris">
                 <div class="img-caption text-center">
                     <h2>Paris</h2>
                     <p>$1,500</p>
-                    <a href="forms.php"><button type="button" class="btn center-block">Book Now</button></a>
+                    <a href="forms.php"><span class="btn center-block">Book Now</span></a>
                 </div>  
             </div>
             <div class="col-lg-4 col-med-4 col-sm-6 col-xs-12">
-                <img class="img-thumbnail"src="box_images/venice_italy.jpg">
+                <img class="img-thumbnail" src="box_images/venice_italy.jpg" alt="venice italy">
                 <div class="img-caption text-center">
                     <h2>Venice</h2>
                     <p>$1,500</p>
-                    <a href="forms.php"><button type="button" class="btn center-block">Book Now</button></a>
+                    <a href="forms.php"><span class="btn center-block">Book Now</span></a>
                 </div>      
             </div>
             <div class="col-lg-4 col-med-4 col-sm-6 col-xs-12">
-                <img class="img-thumbnail"src="box_images/dubai.jpg">
+                <img class="img-thumbnail" src="box_images/dubai.jpg" alt="dubai">
                 <div class="img-caption">
                     <h2>Dubai</h2>
                     <p>$1,500</p>
-                    <a href="forms.php"><button type="button" class="btn center-block">Book Now</button></a>
+                    <a href="forms.php"><span class="btn center-block">Book Now</span></a>
                 </div>  
             </div>
         </div>
         </div>
 </section>
-    <!---- End of Third Row ---->
+</div>
+    <!-- End of Third Row -->
 
-    <!---- Start of Footer ---->
+    <!-- Start of Footer -->
 <?php include("footer.php"); ?>
-	<!---- End of Footer ---->
+	<!-- End of Footer -->
 </body>
 </html>
