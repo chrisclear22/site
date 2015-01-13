@@ -9,7 +9,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/full-slider.css">
     <link rel="stylesheet" type="text/css" href="css/custom.css">
-    <link rel="stylesheet" type="text/css" href="webicons-master/webicons.css">
+    <link rel="stylesheet" type="text/css" href="webicons.css">
 
 </head>
 <body>
