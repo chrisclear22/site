@@ -209,6 +209,9 @@ form.book input, form.book select{
 	color: #fff;
 	line-height: 2em;
 }
+#tweed .thumbnail p{
+	color: black;
+}
 /* Extra small devices (phones,  767px and lower) */
 @media all and (max-width: 767px){ 
 

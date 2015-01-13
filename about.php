@@ -35,8 +35,8 @@
     <div class="thumbnail">
       <img src="holder.js/300x300" alt="...">
       <div class="caption">
-        <h3>Jared Brashears</h3>
-        <h2>Project Manager</h2>
+        <h2 class="text-center">Jared Brashears</h2>
+        <h3 class="text-center">Project Manager</h3>
         <p>Hello, I am the lead developer for Leap Trip. Creating Leap Trip was a great experience from the beginning to finish. Although there where some rough patches and some major and minor tweaks that had to be made working on this project was very fulfilling.</p>
         <a href="#" class="webicon facebook"></a>
       </div>
@@ -46,8 +46,8 @@
     <div class="thumbnail">
       <img src="holder.js/300x300" alt="...">
       <div class="caption">
-        <h3>Qazi Islam</h3>
-        <h2>Lead Developer</h2>
+        <h2 class="text-center">Qazi Islam</h2>
+        <h3 class="text-center">Lead Designer</h3>
         <p>Hello, I am the lead developer for Leap Trip. Creating Leap Trip was a great experience from the beginning to finish. Although there where some rough patches and some major and minor tweaks that had to be made working on this project was very fulfilling.</p>
         <a href="#" class="webicon facebook"></a>
       </div>
@@ -57,8 +57,8 @@
     <div class="thumbnail">
       <img src="holder.js/300x300" alt="...">
       <div class="caption">
-        <h3>Christopher Clear</h3>
-        <h2>Lead Developer</h2>
+        <h2 class="text-center">Christopher Clear</h2>
+        <h3 class="text-center">Lead Developer</h3>
         <p>Hello, I am the lead developer for Leap Trip. Creating Leap Trip was a great experience from the beginning to finish. Although there where some rough patches and some major and minor tweaks that had to be made working on this project was very fulfilling.</p>
         <a href="#" class="webicon facebook"></a>
       </div>
