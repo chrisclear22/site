@@ -1,14 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
- 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
- 	<meta name="viewport" content="width=device-width, initial-scale=1">
- 	<title>Home</title>
-  	<link href="css/bootstrap.min.css" rel="stylesheet">
-  	<link rel="stylesheet" type="text/css" href="css/full-slider.css">
- 	<link rel="stylesheet" type="text/css" href="css/custom.css">
-</head>
+<?php include("head.php"); ?>
 <body>
 	
 	<!-- Start of NavBar -->
@@ -16,8 +8,9 @@
 	<!-- End of NavBar -->
 
  <?php include("jumbotron.php"); ?>
+ <?php include("form_php.php"); ?>
     <div class="container">
-<form role="form" class="book">
+<form role="form" class="book" action="forms.php" method="post">
   <fieldset>
   <legend>Personal Information</legend>
   <div class="row">
@@ -97,17 +90,17 @@
   </div>
   <div class="col-xs-2">
     <label for="zip">Zip<span class="req"> *</span></label>
-    <input type="email" class="form-control" id="zip" name="zip" value="<?php if (isset($_POST['city'])) echo $_POST['city']; ?>" required>
+    <input type="text" class="form-control" id="zip" name="zip" value="<?php if (isset($_POST['zip'])) echo $_POST['zip']; ?>" required>
   </div>
   </div>
   <div class="row">
    <div class="col-xs-5">
     <label for="phone">Phone</label>
-    <input type="email" class="form-control" id="phone" name="phone" value="<?php if (isset($_POST['city'])) echo $_POST['city']; ?>">
+    <input type="text" class="form-control" id="phone" name="phone" value="<?php if (isset($_POST['phone'])) echo $_POST['phone']; ?>">
   </div>
   <div class="col-xs-5">
-    <label for="Email1">Email<span class="req"> *</span></label>
-    <input type="email" class="form-control" id="Email1" name="Email" placeholder="Enter email" value="<?php if (isset($_POST['Email'])) echo $_POST['Email']; ?>" required>
+    <label for="email1">Email<span class="req"> *</span></label>
+    <input type="email" class="form-control" id="email1" name="email" placeholder="Enter email" value="<?php if (isset($_POST['email'])) echo $_POST['email']; ?>" required>
   </div>
   </div>
   </fieldset>
@@ -907,6 +900,10 @@
     	<option value="5">5</option>
     </select>
     </div>
+    <div class="col-xs-4">
+    <label for="cost">Cost</label>
+    <input class="form-control" type="text" name="cost" id="cost" placeholder="$0.00">
+    </div>
     </div>
   </fieldset>
  <fieldset>
@@ -923,14 +920,14 @@
  	</select>
  	</div>
  	<div class="col-xs-5">
- 	<label for="card">Card Number<span class="req"> *</span></label>
- 	<input class="form-control" type="text" name="card" id="card" placeholder="5555-0000-3333-0000" readonly="readonly" required>
+ 	<label for="number">Card Number<span class="req"> *</span></label>
+ 	<input class="form-control" type="text" name="number" id="number" placeholder="5555-0000-3333-0000" value="5555-0000-3333-0000" readonly="readonly" required>
  	</div>
  	<div class="col-xs-3">
  	<label for="code">CCV Code<span class="req"> *</span></label>
- 	<input class="form-control" type="text" name="code" id="code" required>
+ 	<input class="form-control" type="text" name="code" id="code" placeholder="357" value="357" readonly="readonly" required>
  	</div>
- 	<div class="col-xs-3">
+ 	<div class="col-xs-6 col-sm-3 col-md-3">
  		<label for="month">Month<span class="req"> *</span></label>
  		<select class="form-control" name="month" id="month" required>
  			<option value="">-- Month --</option>
@@ -948,7 +945,7 @@
  			<option value="12">12 Dec</option>
  		</select>
  	</div>
- 	<div class="col-xs-3">
+ 	<div class="col-xs-6 col-sm-3 col-md-3">
  	<label for="year">Year<span class="req"> *</span></label>
  		<select class="form-control" name="year" id="year" required>
  			<option value="">-- Year --</option>

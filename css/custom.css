@@ -233,6 +233,9 @@ nav img{
 .navbar-default .navbar-nav>li>a{
 	line-height: 20px;
 }
+.clearfix{
+	overflow: auto;
+}
 #intro { 
 			background: url(../_images/cancun1.jpg) 50% 0 fixed; 	   
 		}

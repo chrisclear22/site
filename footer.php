@@ -2,9 +2,9 @@
     <footer> 
         <div class="row">
             <div>
-               <a href="#" class="webicon facebook"></a>
-               <a href="#" class="webicon pinterest"></a>
-               <a href="#" class="webicon twitter"></a>
+               <a href="#" class="webicon facebook large pull-right" title="LeapTrip Facebook">Facebook</a>
+               <a href="#" class="webicon pinterest large pull-right" title="LeapTrip Pinterest">Pinterest</a>
+               <a href="#" class="webicon twitter large pull-right" title="LeapTrip Twitter">Twitter</a>
             </div>
             <div>
                 <p class="text-left">&copy; LeapTrip 2014</p>

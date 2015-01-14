@@ -1,17 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home</title>
-    <link rel="shortcut icon" href="_images/leaptrip.ico" type="image/x-icon" />
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/full-slider.css">
-    <link rel="stylesheet" type="text/css" href="css/custom.css">
-    <link rel="stylesheet" type="text/css" href="webicons.css">
-
-</head>
+<?php include("head.php"); ?>
 <body>
     
     <!-- Start of NavBar -->
@@ -38,7 +27,9 @@
         <h2 class="text-center">Jared Brashears</h2>
         <h3 class="text-center">Project Manager</h3>
         <p>Hello, I am the lead developer for Leap Trip. Creating Leap Trip was a great experience from the beginning to finish. Although there where some rough patches and some major and minor tweaks that had to be made working on this project was very fulfilling.</p>
-        <a href="#" class="webicon facebook"></a>
+        <a href="#" class="webicon facebook" title="Jared's Facebook"></a>
+        <a href="#" class="webicon twitter" title="Jared's Twitter"></a>
+        <a href="#" class="webicon linkedin" title="Jared's LinkedIn"></a>
       </div>
     </div>
   </div>
@@ -49,7 +40,9 @@
         <h2 class="text-center">Qazi Islam</h2>
         <h3 class="text-center">Lead Designer</h3>
         <p>Hello, I am the lead developer for Leap Trip. Creating Leap Trip was a great experience from the beginning to finish. Although there where some rough patches and some major and minor tweaks that had to be made working on this project was very fulfilling.</p>
-        <a href="#" class="webicon facebook"></a>
+        <a href="#" class="webicon facebook" title="Qazi's Facebook"></a>
+        <a href="#" class="webicon twitter" title="Qazi's Twitter"></a>
+        <a href="#" class="webicon linkedin" title="Qazi's LinkedIn"></a>
       </div>
     </div>
   </div>
@@ -60,7 +53,9 @@
         <h2 class="text-center">Christopher Clear</h2>
         <h3 class="text-center">Lead Developer</h3>
         <p>Hello, I am the lead developer for Leap Trip. Creating Leap Trip was a great experience from the beginning to finish. Although there where some rough patches and some major and minor tweaks that had to be made working on this project was very fulfilling.</p>
-        <a href="#" class="webicon facebook"></a>
+        <a href="http://facebook.com/christopher.clear.39" class="webicon facebook" title="Christopher's Facebook"></a>
+        <a href="http://twitter.com/chrisclear22" class="webicon twitter" title="Christopher's Twitter"></a>
+        <a href="http://www.linkedin.com/pub/christopher-clear/9a/566/b51" class="webicon linkedin" title="Christopher's LinkedIn"></a>
       </div>
     </div>
   </div>
