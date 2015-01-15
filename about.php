@@ -51,8 +51,6 @@
 =======
         <p>YO YO YO WHAT IT IS HOMIE, IM DA LEAD DESIGNER FO DIS COMPANY.</p>
         <a href="https://www.facebook.com/qazi.r.islam" class="webicon facebook"></a>
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
       </div>
     </div>
   </div>
