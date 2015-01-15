@@ -46,6 +46,13 @@ nav form{
 .carousel-caption{
 	line-height: 3em;
 }
+.carousel-caption h1, .carousel-caption h2{
+	text-shadow:2px 2px #f15d22;
+	margin-bottom: .7em;
+}
+.carousel-caption h4{
+	text-shadow:2px 2px #00aeef;
+}
 /*--------------------*/
 
 
@@ -232,6 +239,9 @@ nav img{
 }
 .navbar-default .navbar-nav>li>a{
 	line-height: 20px;
+}
+.clearfix{
+	overflow: auto;
 }
 #intro { 
 			background: url(../_images/cancun1.jpg) 50% 0 fixed; 	   

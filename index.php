@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+<<<<<<< HEAD
+<?php include("head.php"); ?>
+=======
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +13,7 @@
    <link rel="stylesheet" type="text/css" href="css/full-slider.css">
    <link rel="stylesheet" type="text/css" href="css/custom.css">
 </head>
+>>>>>>> FETCH_HEAD
 <body>
 	
 	<!-- Start of NavBar -->
@@ -30,7 +34,7 @@
             <div class="img-caption">
                     <h2>Bora Bora</h2>
                     <p>$1,500</p>
-                    <a href="forms.php"><span class="btn center-block">Book Now</span></a>
+                    <a href="destions.php?id=1"><span class="btn center-block">Book Now</span></a>
                 </div>      
             </div>
             <div class="col-lg-4 col-med-4 col-sm-6 col-xs-12">

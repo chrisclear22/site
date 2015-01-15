@@ -5,27 +5,39 @@
                 <!-- Set the first background image using inline CSS below. -->
                 <div><img src="_images/paris/paris5.jpg"></div>
                 <div class="carousel-caption">
+<<<<<<< HEAD
+                    <h1>Bora Bora</h1>
+                    <h4>FROM</h4>
+                    <h2>$1,500</h2>
+=======
                     <h2>Paris</h2>
                     <p>FROM</p>
                     <p>$1,500</p>
+>>>>>>> FETCH_HEAD
                 </div>
             </div>
             <div class="item">
                 <!-- Set the second background image using inline CSS below. -->
                 <div><img src="_images/kauai/hawaii_kauai2.jpg"></div>
                 <div class="carousel-caption">
-                    <h2>Kauai</h2>
-                    <p>FROM</p>
-                    <p>$1,500</p>
+                    <h1>Kauai</h1>
+                    <h4>FROM</h4>
+                    <h2>$1,500</h2>
                 </div>
             </div>
             <div class="item">
                 <!-- Set the third background image using inline CSS below. -->
                  <div><img src="_images/bora_bora/bora_mask.jpg"></div>
                 <div class="carousel-caption">
+<<<<<<< HEAD
+                    <h1>Venice</h1>
+                    <h4>FROM</h4>
+                    <h2>$1,500</h2>
+=======
                     <h2>Bora Bora</h2>
                     <p>FROM</p>
                     <p>$1,500</p>
+>>>>>>> FETCH_HEAD
                 </div>
             </div>
         </div>
