@@ -244,11 +244,11 @@ nav img{
 	overflow: auto;
 }
 #intro { 
-			background: url(../_images/cancun1.jpg) 50% 0 fixed; 	   
+			background: url(../_images/cancun/cancun1.jpg) 50% 0 fixed; 	   
 		}
 
 #about { 
-			background: url(../_images/cancun2.jpg) 50% 0 fixed;
+			background: url(../_images/cancun/cancun2.jpg) 50% 0 fixed;
 			padding: 100px 0px; 
 		}
 }
@@ -261,11 +261,11 @@ nav img{
 	bottom: 50px;
 }
 #intro { 
-			background: url(../_images/cancun1.jpg) 50% 0 fixed; 	   
+			background: url(../_images/cancun/cancun1.jpg) 50% 0 fixed; 	   
 		}
 
 #about { 
-			background: url(../_images/cancun2.jpg) 50% 0 fixed;
+			background: url(../_images/cancun/cancun2.jpg) 50% 0 fixed;
 			padding: 100px 0px; 
 		}
 }
@@ -294,11 +294,11 @@ div.row{
 	max-width: 250px;
 }
 #intro { 
-			background: url(../_images/cancun1.jpg) 50% 0 fixed; 	   
+			background: url(../_images/cancun/cancun1.jpg) 50% 0 fixed; 	   
 		}
 
 #about { 
-			background: url(../_images/cancun2.jpg) 50% 0 fixed;
+			background: url(../_images/cancun/cancun2.jpg) 50% 0 fixed;
 			padding: 100px 0px; 
 		}
 }
@@ -322,7 +322,7 @@ div.row{
 /* --------- Paralax Scolling ----------- */
 
 #intro { 
-			background: url(../_images/cancun1.jpg) 50% 0 fixed; 
+			background: url(../_images/cancun/cancun1.jpg) 50% 0 fixed; 
 			height: 65%;  
 			margin: 0 auto; 
 		    width: 100%; 
@@ -330,7 +330,7 @@ div.row{
 		    padding-bottom: 100px;
 		}
 	#about { 
-			background: url(../_images/cancun2.jpg) 50% 0 fixed; 
+			background: url(../_images/cancun/cancun2.jpg) 50% 0 fixed; 
 			height: auto;
 			margin: 0 auto; 
 		    width: 100%; 
