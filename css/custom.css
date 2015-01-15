@@ -153,19 +153,9 @@ footer p{
 
 /* Destination Page Styles */
 
-.destination h1{
-	margin:0px;
-}
- .destination div.row{
-	color: black;
-	margin-bottom: 4em;
-}
-.destination img{
-	box-shadow: 3px 4px 5px;
-}
-#destination{
-	background-color: #fff;
-	padding: 100px 0px; 
+.local_details, .map_weath{
+	color: #fff;
+	line-height: 2em;
 }
 /*---------------------*/
 
