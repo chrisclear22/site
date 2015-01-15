@@ -1,14 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Home</title>
-   <link href="css/bootstrap.min.css" rel="stylesheet">
-   <link rel="stylesheet" type="text/css" href="css/full-slider.css">
-   <link rel="stylesheet" type="text/css" href="css/custom.css">
-</head>
+<?php include("head.php"); ?>
 <body>
 		<!-- Start of NavBar -->
 <?php include("navbar.php"); ?>
@@ -22,7 +14,7 @@
         <div class="row">
             <?php
                 require('mysqli_connect.php');
-                $q = "SELECT image, title, price, alt FROM destinations";
+                $q = "SELECT image, title, price, alt, location FROM destinations";
                 $result = mysqli_query($dbcon, $q);
                 if($result){
                     while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){
@@ -31,7 +23,7 @@
                         echo '<div class="img-caption">';
                         echo '<h2>' . $row['title'] . '</h2>';
                         echo '<p>' . $row['price'] . '</p>';
-                        echo '<a href="' . $row['location'] . '><span class="btn center-block">More Info</span></a>';
+                        echo '<a href="' . $row['location'] . '"><span class="btn center-block">More Info</span></a>';
                         echo '</div> </div>';}
                         mysqli_free_result($result);
                     } else{
@@ -41,9 +33,9 @@
                     } 
                     mysqli_close($dbcon); ?> 
             </div>
-        </div> 
-        </div>
+        </div>       
 </section>
-<?php include("footer.php"); ?></div>
+</div>
+<?php include("footer.php"); ?>
 </body>
 </html>
