@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <img src="_images/leaptrip_logo_orange_bg_clear.png" alt="logo image">
+      <img src="_images/leaptrip_logo/leaptrip_logo_orange_bg_clear.png" alt="logo image">
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
