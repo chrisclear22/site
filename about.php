@@ -18,7 +18,7 @@
 <?php include("navbar.php"); ?>
     <!-- End of NavBar -->
 
-<?php include("video.php"); ?>
+<?php include("jumbotron.php"); ?>
 
 <div class="index_main_content_wrapper">
 <section id="tweed" data-speed="6" data-type="background">
@@ -48,8 +48,8 @@
       <div class="caption">
         <h2 class="text-center">Qazi Islam</h2>
         <h3 class="text-center">Lead Designer</h3>
-        <p>YO YO YO WHAT IT IS HOMIE, IM DA LEAD DESIGNER FO DIS COMPANY.</p>
-        <a href="#" class="webicon facebook"></a>
+        <p>Hello, I am the lead developer for Leap Trip. Creating Leap Trip was a great experience from the beginning to finish. Although there where some rough patches and some major and minor tweaks that had to be made working on this project was very fulfilling.</p>
+        <a href="https://www.facebook.com/qazi.r.islam" class="webicon facebook"></a>
       </div>
     </div>
   </div>
