@@ -39,12 +39,13 @@
       <div class="caption">
         <h2 class="text-center">Qazi Islam</h2>
         <h3 class="text-center">Lead Designer</h3>
-<<<<<<< HEAD
+
         <p>Hello, I am the lead developer for Leap Trip. Creating Leap Trip was a great experience from the beginning to finish. Although there where some rough patches and some major and minor tweaks that had to be made working on this project was very fulfilling.</p>
         <a href="https://www.facebook.com/qazi.r.islam" class="webicon facebook"></a>
 =======
 <<<<<<< HEAD
         <p>Hello, I am the lead developer for Leap Trip. Creating Leap Trip was a great experience from the beginning to finish. Although there where some rough patches and some major and minor tweaks that had to be made working on this project was very fulfilling.</p>
+<<<<<<< HEAD
         <a href="https://www.facebook.com/qazi.r.islam" class="webicon facebook" title="Qazi's Facebook"></a>
         <a href="https://twitter.com/QaziIslam" class="webicon twitter" title="Qazi's Twitter"></a>
         <a href="www.linkedin.com/in/qaziislam
@@ -53,6 +54,19 @@
         <p>YO YO YO WHAT IT IS HOMIE, IM DA LEAD DESIGNER FO DIS COMPANY.</p>
         <a href="#" class="webicon facebook"></a>
 >>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
+=======
+        <a href="#" class="webicon facebook" title="Qazi's Facebook"></a>
+        <a href="#" class="webicon twitter" title="Qazi's Twitter"></a>
+        <a href="#" class="webicon linkedin" title="Qazi's LinkedIn"></a>
+
+        <p>YO YO YO WHAT IT IS HOMIE, IM DA LEAD DESIGNER FO DIS COMPANY.</p>
+<<<<<<< Updated upstream
+        <a href="https://www.facebook.com/qazi.r.islam" class="webicon facebook"></a>
+=======
+        <a href="#" class="webicon facebook"></a>
+
+>>>>>>> Stashed changes
 >>>>>>> FETCH_HEAD
       </div>
     </div>
