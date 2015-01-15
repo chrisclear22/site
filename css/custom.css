@@ -305,6 +305,9 @@ div.row{
 .tron{
 	max-height: 500px;
 }
+.video{
+    max-height: 200px;
+}
 
 /* --------- Paralax Scolling ----------- */
 
