@@ -129,15 +129,18 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 // Make query:
 $q = "INSERT INTO form (passenger_id, firstName, lastName, address, city, state, zip, phone, email) 
 VALUES (' ', '$fn', '$ln', '$ad', '$cy', '$st', '$zip', '$ph', '$e')";	
-$t = " INSERT INTO reservation (reservation_id, passenger_id, reservation_date, destination, adult_passengers, child_passengers, air_port, to, leave, return) VALUES (' ', ' ', ' ', '$dt', '$al', '$cl', '$ap', '$to', '$dp', '$re')";	
-$p = "INSERT INTO payments (payment_id, payment_date, payment_amount, card_type, card_number, ccv_code, month_exp, year_exp) VALUES (' ', ' ', ' ', '$pr', '$tp', '$nu', '$ccv', '$mn', '$yr')";
+if $passenger_id isset()  
+
+
+$t = "INSERT INTO reservation (reservation_id, passenger_id, reservation_date, destination, adult_passengers, child_passengers, air_port, to, leave, return) VALUES (' ', (SELECT passenger_id from form), CURRENT_TIMESTAMP, '$dt', '$al', '$cl', '$ap', '$to', '$dp', '$re')";	
+$p = "INSERT INTO payments (payment_id, payment_date, payment_amount, card_type, card_number, ccv_code, month_exp, year_exp) VALUES (' ', CURRENT_TIMESTAMP, '$pr', '$tp', '$nu', '$ccv', '$mn', '$yr')";
 		$result = @mysqli_query ($dbcon, $q, $t, $p); // Run the query.
 		if ($result) {
 		header ("location: thanks.php"); 
 		exit();
 		
-		} else { // If it did not run
-		// Message:
+		} else { 
+		// Error Message:
 			echo '<h2>System Error</h2>
 <p class="error">Your purchase could not be completed. We apologize for any inconvenience.</p>'; 
 		// Debugging message:

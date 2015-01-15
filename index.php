@@ -21,7 +21,7 @@
             <div class="img-caption">
                     <h2>Bora Bora</h2>
                     <p>$1,500</p>
-                    <a href="forms.php"><span class="btn center-block">Book Now</span></a>
+                    <a href="destions.php?id=1"><span class="btn center-block">Book Now</span></a>
                 </div>      
             </div>
             <div class="col-lg-4 col-med-4 col-sm-6 col-xs-12">
