@@ -7,7 +7,7 @@
 <?php include("navbar.php"); ?>
     <!-- End of NavBar -->
 
-<?php include("jumbotron.php"); ?>
+<?php include("video.php"); ?>
 
 <div class="index_main_content_wrapper">
 <section id="tweed" data-speed="6" data-type="background">
