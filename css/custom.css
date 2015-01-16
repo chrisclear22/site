@@ -258,6 +258,9 @@ nav img{
 			background: url(../_images/cancun/cancun2.jpg) 50% 0 fixed;
 			padding: 100px 0px; 
 		}
+.tron{
+	max-height: 400px;
+}
 }
 
 

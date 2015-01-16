@@ -19,62 +19,50 @@
       
 
       <div class="row local_details"> <!-- loca_details row -->
-        <div class="col-xs-12 col-sm-6 col-md-3 col-md-push-9 col-lg-3 col-lg-push-9">
+          <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8"> <!--left column -->
+            <?php 
+            require ('mysqli_connect.php'); 
+
+            if ((isset($_GET['id'])) && (is_numeric($_GET['id']))) {
+            	$id = $_GET['id'];
+               	$q = "SELECT location_detail, activities, Dining, weather FROM destinations WHERE destination_id='$id'";
+            	$result = mysqli_query($dbcon, $q);
+            	if ($result){
+            		$row = mysqli_fetch_array($result);
+            	echo '' . $row['location_detail'] . '';
+            	echo '' . $row['activities'] . '';
+            	echo '' . $row['Dining'] . '';
+            	echo '' . $row['weather'] . '';
+          		mysqli_free_result($result);
+          		 }
+          		  else{
+          		  	echo '<p> Sorry,but the page you have accessed is currently unavailable.<p>';
+          		  }
+       		 } 
+       		  ?>
+          </div> <!-- end left column -->
+           <div class="col-xs-12 col-sm-5 col-md-3 col-lg-3 ">
               <h3>What's Included</h3>
                 <ul>
-                  <li>Roundtrip Airfare</li>
-                  <li>Accomodations</li>
+                  <li>Round-trip Airfare</li>
+                  <li>Accommodations</li>
                   <li>Local Transportation</li>
                   <li>Food and Drinks</li>
                   <li>Spa Credits</li>
                   <li>Choice of two Activities</li>
                 </ul>
               <h4>Select Dates</h4>
-                <form action="">
+                <form action="forms.php" >
                   <div class="input-daterange input-group" id="datepicker">
                     <input type="date" class="input-sm form-control" name="departure" />
                     <span class="input-group-addon">to</span>
                     <input type="date" class="input-sm form-control" name="return" />
+                    <input type="hidden" value="<?php echo $id ?>" name="id" />
                   </div><br>
                   <button class="btn btn-default" role="button">Book Now!</button>
                 </form>
+                <?php mysqli_close($dbcon); ?>
         </div> <!-- end right offset column -->
-
-          <div class="col-xs-12 col-sm-9 col-md-9 col-md-pull-3 col-lg-9 col-lg-pull-3"> <!--left column -->
-            <h1 class="loca_name text-center">Bora Bora</h1>
-              <p>After landing at the Bora Bora Airport(BOB) you will travel via shuttle or small bus to the Four Seasons Resort Bora Bora where you will be staying in a two-bedroom overwater bungalow suite with plunge pool.</p>
-
-             <p> Upon checking in with our VIP concierge you will be provided with an optional itinerary. This will include a map with dates and times for your local travel, activities, and dining. The concierge will also provide you with information regarding nightlife and social activities you may be interested in, as well as seasonal events. Don’t forget your camera!</p>
-
-          <h1 class="text-center">Activities</h1>
-              <p>We offer the best experiences for your trip. In order to do this we’ve searched far and wide to find the best of the best for your chosen activities, and since we know people have different interest we allow you to choose the activities for your Leap Trip package. Your package will include 2 activities (your choice) from the list below. You can contact our VIP concierge to get more info or schedule activities and don’t forget to use our spa after enjoying your activities after all it is included.</p>
-
-              <ul>
-                <li>Helicopter Tour</li>
-                <li>Snorkeling Adventure</li>
-                <li>Catamaran Excursion</li>
-                <li>Scuba Diving Adventure</li>
-                <li>Parasailing</li>
-                <li>Pearl Farm Tour</li>
-                <li>4wd Safari</li>
-                <li>Deep Sea Fishing</li>
-              </ul>
-
-              <h1>Dinning</h1>
-              <p>There’s nothing more miserable than going somewhere and not enjoying the cuisine. We’ve done our best to remedy that. After booking you Leap Trip please contact our VIP concierge to make your dinner dining reservations. We are currently offering reservations at these fine locations and as always your breakfast will be served in your room.</p>
-              <ul>
-                <li>La Villa Mahana</li>
-                <li>Restaurant St James</li>
-                <li>Catamaran Excursion</li>
-                <li>Lagoon Restaurant by Jean-Georges</li>
-                <li>Mai Kai Bora Bora</li>
-                <li>Matira Beach Restaurant</li>
-                <li>Arli Moana</li>
-                <li>Tere Nui</li>
-                <li>Fare Hoa Beach Bar</li>
-                <li>Sunset Restaurant & Bar</li>
-              </ul><br>
-          </div> <!-- end left column -->
       </div> <!-- end loca_details row -->
 
       <div class="row map_weath"> <!-- map_weath row -->

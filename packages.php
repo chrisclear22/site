@@ -13,8 +13,7 @@
     <div class="container packages imgs top">
         <div class="row">
             <?php
-                require('mysqli_connect.php');
-                $q = "SELECT image, title, price, alt, location FROM destinations";
+                $q = "SELECT destination_id AS id, image, title, price, alt FROM destinations";
                 $result = mysqli_query($dbcon, $q);
                 if($result){
                     while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){
@@ -23,7 +22,7 @@
                         echo '<div class="img-caption">';
                         echo '<h2>' . $row['title'] . '</h2>';
                         echo '<p>' . $row['price'] . '</p>';
-                        echo '<a href="' . $row['location'] . '"><span class="btn center-block">More Info</span></a>';
+                        echo '<a href="destination.php?id=' . $row['id'] . '"><span class="btn center-block">More Info</span></a>';
                         echo '</div> </div>';}
                         mysqli_free_result($result);
                     } else{
