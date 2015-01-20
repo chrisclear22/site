@@ -8,5 +8,6 @@
     <link rel="stylesheet" type="text/css" href="css/full-slider.css">
     <link rel="stylesheet" type="text/css" href="css/custom.css">
     <link rel="stylesheet" type="text/css" href="webicons.css">
+    <link rel="stylesheet" href="css/fonts/stylesheet.css" type="text/css" charset="utf-8" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>

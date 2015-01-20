@@ -4,7 +4,7 @@
 <?php include("head.php"); ?>
 
 <body>
-	
+	<?php include ("analyticstracking.php"); ?>
 	<!-- Start of NavBar -->
 <?php include("navbar.php"); ?>
 	<!-- End of NavBar -->

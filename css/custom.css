@@ -15,12 +15,7 @@
 */ 
 
 /* NavBar Styles */
-h1{
-	text-align: center;
-	margin-bottom: 0px;
-	color: #fff;
-	margin-top:20px;
-}
+
 nav img{
 max-width: 150px;
 margin-top: 20px;
@@ -53,9 +48,7 @@ nav form{
 .carousel-caption h4{
 	text-shadow:2px 2px #00aeef;
 }
-div.embed-responsive{
-	top:100px;
-}
+
 /*--------------------*/
 
 
@@ -76,7 +69,9 @@ div.img-caption{
 	bottom: 200px;	
 	color: white;
 }
-
+video{
+	max-width: 100%;
+}
 div.img-caption p{
 	font-size: 1.5em;}
 
@@ -94,6 +89,19 @@ div.img-caption button:hover{
 }
 #intro span:hover, #about span:hover{
 	background-color: #f15d22;
+}
+h1{
+	font-family: nexa_rust, sans-serif;
+	text-align: center;
+	margin-bottom: 0px;
+	color: #fff;
+	font-size: 5em;
+	margin-top:20px;
+}
+h2{
+	font-family: nexa_rust, sans-serif;
+	font-size: 4em;
+	margin-bottom: 0px;
 }
 a{
 	color: white;
@@ -135,22 +143,6 @@ font-family: Times New Roman;
 color: #00aeef;
 }
 
-/* Footer Styles */
-.container.end{
-	background-color: #333;
-	width: 100%;
-	height: 50px;
-}
-footer img{
-	max-width: 50px;
-	float: right;
-	margin-left: 5px
-}
-footer p{
-	padding-top: 30px;
-	margin-bottom: 0px;
-	color: #fff;
-}
 /*-------------------*/
 
 
@@ -160,8 +152,11 @@ footer p{
 	color: #fff;
 	line-height: 2em;
 }
+.container.end{
+	margin-top: 1.5em;
+}
 #packages { 
-			background: url(../_images/para_photos/plane_para.jpg) 50% 0 fixed; 
+			background: url(../_images/para_photos/plane_para2.jpg) 50% 0 fixed; 
 			background-size: cover;
 			padding-top: 100px;	   
 		}
@@ -177,7 +172,7 @@ footer p{
 }
 #packages h1{
 	color: black;
-	margin-bottom: 3em;
+	margin-bottom: 1em;
 }
 /*-----------------------*/
 
@@ -201,9 +196,6 @@ div.col-xs-3 #expire{
 .req{
 	color: red;
 }
-form{
-	
-}
 form.book input, form.book select{
 	margin-bottom: 15px;
 }
@@ -213,7 +205,7 @@ form.book input, form.book select{
 /* About Page Styles */
 #tweed { 
 			background: url(../_images/tweed.png) 50% 0 fixed; 	
-			padding-top: 110px;   
+			padding-top: 10px;   
 		}
 #tweed p{
 	color: #fff;
@@ -249,6 +241,23 @@ nav img{
 .clearfix{
 	overflow: auto;
 }
+div.embed-responsive{
+	top:60px;
+}
+a.large{
+	display: none;
+}
+.container.end{
+	background-color: #333;
+	width: 100%;
+	height: 40px;
+	margin-top: 1.5em;
+}
+footer p{
+	line-height: 40px;
+	margin-bottom: 0px;
+	color: #fff;
+}
 #intro { 
 			background: url(../_images/para_photos/cancun_para.jpg) 50% 0 fixed; 
 			background-size: cover;
@@ -272,6 +281,19 @@ nav img{
 header{
 	top:100px;
 }
+div.embed-responsive{
+	top:100px;
+}
+.container.end{
+	background-color: #333;
+	width: 100%;
+	height: 40px;
+}
+footer p{
+	line-height: 40px;
+	margin-bottom: 0px;
+	color: #fff;
+}
 #intro { 
 			background: url(../_images/para_photos/cancun_para.jpg) 50% 0 fixed; 
 			background-size: cover;
@@ -286,7 +308,9 @@ header{
 .tron{
 	max-height: 400px;
 }
-
+a.large{
+	display: none;
+}
 }
 
 
@@ -309,11 +333,26 @@ div.col-lg-4.col-med-4{
 	margin: auto;
 }
 div.row{
-	max-width: 80%;
 	margin: auto;
 }
 .featured img{
 	max-width: 250px;
+}
+div.embed-responsive{
+	top:100px;
+}
+a.med{
+	display: none;
+}
+.container.end{
+	background-color: #333;
+	width: 100%;
+	height: 60px;
+}
+footer p{
+	line-height: 60px;
+	margin-bottom: 0px;
+	color: #fff;
 }
 #intro { 
 			background: url(../_images/para_photos/cancun_para.jpg) 50% 0 fixed; 	
@@ -341,7 +380,22 @@ div.row{
 .video{
     max-height: 200px;
 }
-
+div.embed-responsive{
+	top:100px;
+}
+a.med {
+	display: none;
+}
+.container.end{
+	background-color: #333;
+	width: 100%;
+	height: 60px;
+}
+footer p{
+	line-height: 60px;
+	margin-bottom: 0px;
+	color: #fff;
+}
 /* --------- Paralax Scolling ----------- */
 
 #intro { 

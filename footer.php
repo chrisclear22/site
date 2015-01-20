@@ -5,6 +5,9 @@
                <a href="#" class="webicon facebook large pull-right" title="LeapTrip Facebook">Facebook</a>
                <a href="#" class="webicon pinterest large pull-right" title="LeapTrip Pinterest">Pinterest</a>
                <a href="#" class="webicon twitter large pull-right" title="LeapTrip Twitter">Twitter</a>
+               <a href="#" class="webicon facebook med pull-right" title="LeapTrip Facebook">Facebook</a>
+               <a href="#" class="webicon pinterest med pull-right" title="LeapTrip Pinterest">Pinterest</a>
+               <a href="#" class="webicon twitter med pull-right" title="LeapTrip Twitter">Twitter</a>
             </div>
             <div>
                 <p class="text-left">&copy; LeapTrip 2014</p>

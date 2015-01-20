@@ -16,7 +16,7 @@
       <ul class="nav navbar-nav">
         <li><a href="index.php" title="Home Page">Home <span class="sr-only">(current)</span></a></li>
         <li><a href="about.php" title="About Us">About</a></li>
-        <li><a href="packages.php" title="Vacation Packages">Packages</a></li>
+        <li><a href="packages.php" title="Vacation Packages">Vacations</a></li>
       </ul>
       <form class="navbar-form navbar-right" role="search">
         <div class="form-group">
