@@ -14,12 +14,12 @@
 <section id="tweed" data-speed="6" data-type="background">
 
 
-<h1 class="text-center">Leap Trip</h1>
+<h1 class="text-center font">Leap Trip</h1>
 <hr>
 <div class="container">
 <p>Leap Trip was created at Francis Tuttle Technology Center - Rockwell Post-Secondary chapter. Leap Trip emphasizes simplicity and ease of use. If you want to vacation like a rock star on their next trip this is where you want to start. Nothing is more enjoyable than a vacation that is all inclusive with hotel, transportation, and activities at your disposal upon landing. So if you want to live the "Jet-Set" life book with us and <em>Leap Into Luxury</em>.</p>
 
-<h1 class="text-center">Crew</h1>
+<h1 class="text-center font">Crew</h1>
 <hr>
 <div class="col-sm-6 col-md-4">
     <div class="thumbnail">

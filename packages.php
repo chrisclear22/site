@@ -13,7 +13,7 @@
 <section id="packages" data-speed="6" data-type="background">
     <div class="container packages imgs top">
         <div class="row">
-        <h1> Packages</h1>
+        <h1 class="text-center font"> Packages</h1>
             <?php
                 require ('mysqli_connect.php'); 
                 $q = "SELECT destination_id AS id, image, title, price, alt FROM destinations WHERE destination_id < 10";
@@ -23,7 +23,7 @@
                         echo '<div class="col-lg-4 col-med-4 col-sm-6 col-xs-12">';
                         echo '<img class="img-thumbnail" src="' . $row['image'] . '" alt="' . $row['alt'] . '">';
                         echo '<div class="img-caption">';
-                        echo '<h2>' . $row['title'] . '</h2>';
+                        echo '<h2 class="font">' . $row['title'] . '</h2>';
                         echo '<p>' . $row['price'] . '</p>';
                         echo '<a href="destination.php?id=' . $row['id'] . '"><span class="btn center-block">More Info</span></a>';
                         echo '</div> </div>';}

@@ -17,12 +17,13 @@
         <li><a href="index.php" title="Home Page">Home <span class="sr-only">(current)</span></a></li>
         <li><a href="about.php" title="About Us">About</a></li>
         <li><a href="packages.php" title="Vacation Packages">Vacations</a></li>
+        <li><a href="contact.php" title="contact">Contact Us</a></li>
       </ul>
       <form class="navbar-form navbar-right" role="search">
         <div class="form-group">
           <input type="text" class="form-control" placeholder="Search">
         </div>
-        <button type="submit" class="btn btn-default">Submit</button>
+        <button type="submit" class="btn btn-default">Search</button>
       </form>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->

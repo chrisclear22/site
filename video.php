@@ -1,5 +1,5 @@
     <header id="video">
-<video controls>
+<video controls poster="_images/leaptrip_logo/leaptrip_logo_orange_bg_clear.png">
   <source src="video/leaptrip-_2.mp4" type="video/mp4">
   <source src="video/leaptrip-_2.ogv" type="video/ogv">
   <source src="video/leaptrip-_2.m4v" type="video/m4v">

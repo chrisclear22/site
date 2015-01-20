@@ -5,7 +5,7 @@
                 <!-- Set the first background image using inline CSS below. -->
                 <div><img src="_images/paris/paris5.jpg"></div>
                 <div class="carousel-caption">
-                    <h1>Paris</h1>
+                    <h1 class="font">Paris</h1>
                     <h4>FROM</h4>
                     <h2>$1,500</h2>
                 </div>
@@ -14,7 +14,7 @@
                 <!-- Set the second background image using inline CSS below. -->
                 <div><img src="_images/kauai/hawaii_kauai2.jpg"></div>
                 <div class="carousel-caption">
-                    <h1>Kauai</h1>
+                    <h1 class="font">Kauai</h1>
                     <h4>FROM</h4>
                     <h2>$1,500</h2>
                 </div>
@@ -23,7 +23,7 @@
                 <!-- Set the third background image using inline CSS below. -->
                  <div><img src="_images/bora_bora/bora_mask.jpg"></div>
                 <div class="carousel-caption">
-                    <h1>Bora Bora</h1>
+                    <h1 class="font">Bora Bora</h1>
                     <h4>FROM</h4>
                     <h2>$1,500</h2>
                 </div>
