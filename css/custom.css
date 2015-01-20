@@ -218,6 +218,35 @@ form.book input, form.book select{
 #tweed .thumbnail p{
 	color: black;
 }
+
+
+/*-------------  Destinations Page Styles -----------------*/
+/*---------------------------------------------------------*/
+.top_container {
+	margin-top: 100px;
+}
+.loca_details {
+	margin-bottom: 2em;
+}
+#googleMap {
+	margin-top: 20px;
+}
+.wu-logo img {
+	height: 65px;
+}
+.loc-details, .loc-name, .loc-activities, .loc-dining, .loc-weath{
+	color: #fff;
+	line-height: 2em;
+}
+
+.loc-activities img, .loc-dining img {
+	margin-top: 20px;
+}
+/*-------------  End Destinations Page Styles -------------*/
+/*---------------------------------------------------------*/
+
+
+
 /* Extra small devices (phones,  767px and lower) */
 @media all and (max-width: 767px){ 
 
@@ -274,7 +303,6 @@ form{
 			padding: 100px 0px; 
 		}
 }
-
 @media all and (min-width: 768px) and (max-width:991px){
 .carousel, .item, .active{
 	max-height: 450px;
