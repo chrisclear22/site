@@ -14,8 +14,9 @@
     <div class="container top_container">
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-med-12 col-lg-12">
-          <img class="img-responsive" src="http://franklincode.coursekit.com.s3.amazonaws.com/30e1ceef65aa4ba1a1bb66056eeb09b6/sass/img/onboarding-bg.jpg" alt="">
+          <img class="img-responsive" src="_images/bora_bora/cliff_bora_bora_1140x560.jpg" alt="">
         </div>
+        <div class="col-xs-12"><hr></div>
       </div> <!-- end row -->
       
 
