@@ -69,7 +69,7 @@
         <div class="row">
             <?php
                 
-                $q = "SELECT destination_id AS id, image, title, price, alt FROM destinations WHERE destination_id > 6";
+                $q = "SELECT destination_id AS id, image, title, price, alt FROM destinations WHERE destination_id BETWEEN 7 AND 9";
                 $result = mysqli_query($dbcon, $q);
                 if($result){
                     while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){
@@ -78,7 +78,7 @@
                         echo '<div class="img-caption">';
                         echo '<h2>' . $row['title'] . '</h2>';
                         echo '<p>' . $row['price'] . '</p>';
-                        echo '<a href="destinations.php?id=' . $row['id'] . '"><span class="btn center-block">More Info</span></a>';
+                        echo '<a href="destination.php?id=' . $row['id'] . '"><span class="btn center-block">More Info</span></a>';
                         echo '</div> </div>';}
                         mysqli_free_result($result);
                     } else{

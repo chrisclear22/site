@@ -53,6 +53,9 @@ nav form{
 .carousel-caption h4{
 	text-shadow:2px 2px #00aeef;
 }
+div.embed-responsive{
+	top:100px;
+}
 /*--------------------*/
 
 
@@ -85,7 +88,7 @@ div.img-caption button:hover{
 	background-color: #f15d22;
 	color: #fff;
 }
-#intro span, #about span{
+#intro span, #about span, #packages span{
 	background-color: #00aeef;
 	max-width: 100px;
 }
@@ -157,6 +160,11 @@ footer p{
 	color: #fff;
 	line-height: 2em;
 }
+#packages { 
+			background: url(../_images/para_photos/plane_para.jpg) 50% 0 fixed; 
+			background-size: cover;
+			padding-top: 100px;	   
+		}
 /*---------------------*/
 
 
@@ -166,6 +174,10 @@ footer p{
 }
 .tours img{
 	box-shadow: 3px 4px 5px;
+}
+#packages h1{
+	color: black;
+	margin-bottom: 3em;
 }
 /*-----------------------*/
 
@@ -200,7 +212,8 @@ form.book input, form.book select{
 
 /* About Page Styles */
 #tweed { 
-			background: url(../_images/tweed.png) 50% 0 fixed; 	   
+			background: url(../_images/tweed.png) 50% 0 fixed; 	
+			padding-top: 110px;   
 		}
 #tweed p{
 	color: #fff;
@@ -213,7 +226,7 @@ form.book input, form.book select{
 @media all and (max-width: 767px){ 
 
 .carousel, .item, .active{
-	max-height: 235px;
+	max-height: 205px;
 } 
 .carousel-caption{
 	bottom: 30px;
@@ -223,6 +236,9 @@ form.book input, form.book select{
 	max-width: 365px;
 	position: relative;
 	margin: auto;
+}
+header{
+	top:60px
 }
 nav img{
 	margin: 0px;
@@ -234,11 +250,14 @@ nav img{
 	overflow: auto;
 }
 #intro { 
-			background: url(../_images/cancun/cancun1.jpg) 50% 0 fixed; 	   
+			background: url(../_images/para_photos/cancun_para.jpg) 50% 0 fixed; 
+			background-size: cover;
+			padding-top: 150px;	  
 		}
 
 #about { 
-			background: url(../_images/cancun/cancun2.jpg) 50% 0 fixed;
+			background: url(../_images/para_photos/hot_air.jpg) 50% 0 fixed;
+			background-size: cover;
 			padding: 100px 0px; 
 		}
 }
@@ -250,17 +269,24 @@ nav img{
 .carousel-caption{
 	bottom: 50px;
 }
+header{
+	top:100px;
+}
 #intro { 
-			background: url(../_images/cancun/cancun1.jpg) 50% 0 fixed; 	   
+			background: url(../_images/para_photos/cancun_para.jpg) 50% 0 fixed; 
+			background-size: cover;
+			padding-top: 200px;	  
+
 		}
 
 #about { 
-			background: url(../_images/cancun/cancun2.jpg) 50% 0 fixed;
+			background: url(../_images/para_photos/hot_air.jpg) 20% 0 fixed;
 			padding: 100px 0px; 
 		}
 .tron{
 	max-height: 400px;
 }
+
 }
 
 
@@ -273,6 +299,9 @@ nav img{
 }
 .carousel-caption{
 	bottom: 50px;
+}
+header{
+	top:100px;
 }
 
 div.col-lg-4.col-med-4{
@@ -287,11 +316,12 @@ div.row{
 	max-width: 250px;
 }
 #intro { 
-			background: url(../_images/cancun/cancun1.jpg) 50% 0 fixed; 	   
+			background: url(../_images/para_photos/cancun_para.jpg) 50% 0 fixed; 	
+			padding-top: 200px;   
 		}
 
 #about { 
-			background: url(../_images/cancun/cancun2.jpg) 50% 0 fixed;
+			background: url(../_images/para_photos/hot_air.jpg) 50% 0 fixed;
 			padding: 100px 0px; 
 		}
 }
@@ -315,20 +345,21 @@ div.row{
 /* --------- Paralax Scolling ----------- */
 
 #intro { 
-			background: url(../_images/cancun/cancun1.jpg) 50% 0 fixed; 
+			background: url(../_images/para_photos/cancun_para_medium.jpg) 50% 0 fixed; 
 			height: 65%;  
 			margin: 0 auto; 
 		    width: 100%; 
 		    position: relative; 
 		    padding-bottom: 100px;
+		    background-size: cover;
 		}
 	#about { 
-			background: url(../_images/cancun/cancun2.jpg) 50% 0 fixed; 
+			background: url(../_images/para_photos/hot_air_medium.jpg) 50% 0 fixed; 
 			height: auto;
 			margin: 0 auto; 
 		    width: 100%; 
 		    position: relative; 
-
+			background-size: cover;
 		    padding: 100px 0;
 		    color: #fff;
 		}

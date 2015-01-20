@@ -6,14 +6,16 @@
 <?php include("navbar.php"); ?>
 	<!-- End of NavBar -->
 
-<?php include("jumbotron.php"); ?>
+
 
 <div class="index_main_content_wrapper">
-<section id="intro" data-speed="6" data-type="background">
+<section id="packages" data-speed="6" data-type="background">
     <div class="container packages imgs top">
         <div class="row">
+        <h1> Packages</h1>
             <?php
-                $q = "SELECT destination_id AS id, image, title, price, alt FROM destinations";
+                require ('mysqli_connect.php'); 
+                $q = "SELECT destination_id AS id, image, title, price, alt FROM destinations WHERE destination_id < 10";
                 $result = mysqli_query($dbcon, $q);
                 if($result){
                     while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){
