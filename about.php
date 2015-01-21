@@ -40,10 +40,10 @@
         <h2 class="text-center">Qazi Islam</h2>
         <h3 class="text-center">Lead Designer</h3>
 
-        <p>YO YO YO WHAT IT IS HOMIE, IM DA LEAD DESIGNER FO DIS COMPANY.</p>
+        <p>My name is Qazi Islam. My obsession started when I was 13 and I hijacked my brothers DSLR. That day I found a new form of communication. Photography to me is the most organic form of communication;it’s the way I speak. The human connection is what I seek to capture while creating reference points in this great story of life for people. Being a creative starts by listening to your inner voice;if you can’t listen then you can’t speak. I hope you hear what I’m talking about and maybe someday we can speak.</p>
         <a href="https://www.facebook.com/qazi.r.islam" class="webicon facebook" title="Qazi's Facebook"></a>
         <a href="https://twitter.com/QaziIslam" class="webicon twitter" title="Qazi's Twitter"></a>
-        <a href="www.linkedin.com/in/qaziislam" class="webicon linkedin" title="Qazi's LinkedIn"></a>
+        <a href="https://www.linkedin.com/in/qaziislam" class="webicon linkedin" title="Qazi's LinkedIn"></a>
 
 
       </div>
