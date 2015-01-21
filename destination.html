@@ -68,7 +68,7 @@
         </div> <!-- end package bullets column -->
 
           <div class="col-xs-12 col-sm-12 col-md-9 col-md-pull-3 col-lg-9 col-lg-pull-3"> <!-- package summary column -->
-            <h2 class="loc-name ">Bora Bora</h2>
+            <h1 class="loc-name text-left">Bora Bora</h1>
               <p>After landing at the Bora Bora Airport(BOB) you will travel via shuttle or small bus to the Four Seasons Resort Bora Bora where you will be staying in a two-bedroom overwater bungalow suite with plunge pool.</p>
 
              <p> Upon checking in with our VIP concierge you will be provided with an optional itinerary. This will include a map with dates and times for your local travel, activities, and dining. The concierge will also provide you with information regarding nightlife and social activities you may be interested in, as well as seasonal events. Don’t forget your camera!</p>
@@ -78,11 +78,11 @@
     </div> <!-- end container top_container -->
 
           <div class="container loc-activities"> <!-- activities container -->
-            <div class="row">
-              <div class="col-xs-12 col-sm-6 col-med-3 col-lg-3">
+            <div class="row act-text">
+              <div class="col-xs-12 col-sm-6 col-med-4 col-lg-4">
                 <img src="_images/bora_bora/bora_bora_square.jpg" class="img-responsive" alt="">
               </div>
-              <div class="col-xs-12 col-md-9 col-lg-9">
+              <div class="col-xs-12 col-md-8 col-lg-8">
               <h2 >Activities</h2>
                   <p>We offer the best experiences for your trip. In order to do this we’ve searched far and wide to find the best of the best for your chosen activities, and since we know people have different interest we allow you to choose the activities for your Leap Trip package. Your package will include 2 activities (your choice) from the list below. You can contact our VIP concierge to get more info or schedule activities and don’t forget to use our spa after enjoying your activities after all it is included.</p>
                   <div class="row">
@@ -109,7 +109,7 @@
           </div> <!-- end activities container -->
           <div class="container loc-dining"> <!-- dining container -->
             <div class="row">
-              <div class="col-xs-12 col-md-9 col-lg-9">
+              <div class="col-xs-12 col-md-8 col-lg-8">
                   <h2>Dining</h2>
                   <p>There’s nothing more miserable than going somewhere and not enjoying the cuisine. We’ve done our best to remedy that. After booking you Leap Trip please contact our VIP concierge to make your dinner dining reservations. We are currently offering reservations at these fine locations and as always your breakfast will be served in your room.</p>
                 <div class="row">
@@ -133,7 +133,7 @@
                   </div>
                 </div> 
               </div>
-              <div class="col-xs-12 col-sm-6 col-med-3 col-lg-3">
+              <div class="col-xs-12 col-sm-6 col-med-4 col-lg-4">
                 <img src="_images/bora_bora/bora_bora_square.jpg" class="img-responsive" alt="">
               </div>
               <div class="col-xs-12"><hr></div>
@@ -141,15 +141,14 @@
           </div> <!-- end dining container -->
           <div class="container loc-weath"> <!-- weather and map container -->
             <div class="row">
-              <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                 <h3 id="weather_info"></h3>
-                  <h4>Currently:</h4>
-                  <p class="current_weather"></p>
+                  <p class="current_weather">Currently: </p>
                   <h4>Today's Forecast:</h4>
                   <p class="weather_desc"></p>
-                  <p class="wu-logo">Powered by: <img src="_images/wundergroundLogo_4c_rev_horz.png" alt="" class="img-responsive"></p>
+                  <p class="wu-logo">Powered by: <a href=""><img src="_images/wundergroundLogo_4c_rev_horz.png" alt="" class="img-responsive"></a></p>
               </div>   
-              <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-9 col-lg-9">
+              <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-8 col-lg-8">
                 <div id="googleMap" style="width:500p;height:310px;"></div>
               </div>
             </div> 
@@ -188,7 +187,7 @@
 
         $('#weather_info').append("Weather for " + location);
         $('.weather_desc').append(forecast);
-        $('.current_weather').append(temp_f + "&deg; F " + '<img src="http://icons.wxug.com/i/c/k/'+currentCondIcon+'.gif" height="50" width="50"/>');
+        $('.current_weather').append(temp_f + "&deg; F " + '<img src="http://icons.wxug.com/i/c/k/'+currentCondIcon+'.gif" height="40" width="40"/>');
         }
         }); 
         }); 

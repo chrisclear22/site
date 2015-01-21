@@ -231,16 +231,43 @@ form.book input, form.book select{
 #googleMap {
 	margin-top: 20px;
 }
+.wu-logo {
+	font-size: 1.1em;
+}
 .wu-logo img {
-	height: 65px;
+	height: 45px;
 }
 .loc-details, .loc-name, .loc-activities, .loc-dining, .loc-weath{
-	color: #fff;
+	color: rgba(240,230,225,1);
 	line-height: 2em;
 }
 
 .loc-activities img, .loc-dining img {
 	margin-top: 20px;
+}
+.current_weather {
+	font-size: 1.5em;
+}
+.loc-name {
+	background-color: rgba(0,0,0,.3);
+	height:70px;
+	padding: 0 0 0 10px;
+}
+#weather_info {
+	background-color: rgba(0,0,0,.3);
+	height:45px;
+	padding: 8px;
+}
+.act-text h2 {
+	background-color: rgba(0,0,0,.3);
+	height:55px;
+	padding: 10px 0 0 10px;
+}
+.loc-dining h2 {
+	background-color: rgba(0,0,0,.3);
+	height:55px;
+	padding: 10px 0 0 10px;
+
 }
 /*-------------  End Destinations Page Styles -------------*/
 /*---------------------------------------------------------*/
