@@ -44,16 +44,14 @@
         </div>
 </section>
    <!-- End of First Row -->
-   <section id="client" data-speed="6" data-type="background">
-
-</section>
+ 
    <!-- Start of Second Row -->     
         <div class="container featured">
         <div class="row">
-            <div class="col-lg-4 col-med-4 col-sm-4 col-xs-12">
+            <div class="col-lg-4  col-med-4 col-sm-12 col-xs-12">
                 <img class="center-block" src="clients/thumbs_up.jpg" alt="client image">
             </div>
-            <div class="col-lg-8 col-med-8 col-sm-8 col-xs-12">
+            <div class="col-lg-8 col-med-8 col-sm-12 col-xs-12">
                 <blockquote class="gigantic center-block">
                     <p>This site is so awesome! It was very simple and easy to navigate through and the prices are fantastic</p><footer>Melissa Mathers<cite> Mother of 2</cite></footer>
                 </blockquote>

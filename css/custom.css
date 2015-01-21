@@ -18,7 +18,6 @@
 
 nav img{
 max-width: 150px;
-margin-top: 20px;
 }
 nav form{
 	background-color: #333;
@@ -226,8 +225,9 @@ form.book input, form.book select{
 	max-height: 205px;
 } 
 .carousel-caption{
-	bottom: 30px;
-	line-height: 1em;
+	bottom:-15px;
+	line-height: .5em;
+	font-size: .7em;
 }
 .container.imgs{
 	max-width: 365px;
@@ -246,9 +246,6 @@ nav img{
 .clearfix{
 	overflow: auto;
 }
-div.embed-responsive{
-	top:60px;
-}
 a.large{
 	display: none;
 }
@@ -256,7 +253,6 @@ a.large{
 	background-color: #333;
 	width: 100%;
 	height: 40px;
-	margin-top: 1.5em;
 }
 footer p{
 	line-height: 40px;
@@ -286,10 +282,8 @@ form{
 .carousel-caption{
 	bottom: 50px;
 }
+
 header{
-	top:100px;
-}
-div.embed-responsive{
 	top:100px;
 }
 .container.end{
@@ -323,34 +317,45 @@ a.large{
 	display: none;
 }
 }
-
-
-
+/* Special Collaps for NavBar */
+@media (min-width: 768px) and (max-width: 800px) {
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .carousel-inner{
+	bottom:40px;
+} 
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+    .navbar-header {
+        float:none;
+    }
+}
+/* --------------------*/
+/* Nav Logo Fix */
+@media (min-width: 801px){
+	nav img{
+	margin-top: 20px;
+}
+}
 /* Medium devices (desktops, 992px and up) */
 @media all and (min-width: 992px) and (max-width: 1199px) { 
-
 .carousel, .item, .active{
 	max-height: 450px;
 }
 .carousel-caption{
 	bottom: 50px;
 }
+
 header{
 	top:100px;
 }
-
-div.col-lg-4.col-med-4{
-	max-width: 380px;
-	margin: auto;
-}
-div.row{
-	margin: auto;
-}
-.featured img{
-	max-width: 250px;
-}
-div.embed-responsive{
-	top:100px;
+div.col-lg-4 .img-caption{
+	padding-right: 6.5em;
 }
 a.med{
 	display: none;
@@ -371,6 +376,7 @@ form{
 #intro { 
 			background: url(../_images/para_photos/cancun_para.jpg) 50% 0 fixed; 	
 			padding-top: 200px;   
+			background-size: cover;
 		}
 
 #about { 
@@ -384,7 +390,9 @@ form{
 .carousel, .item, .active{
 	max-height: 650px;
 } 
-
+nav img{
+	margin-top: 20px;
+}
 .carousel-caption{
 	bottom: 150px;
 }
@@ -393,9 +401,6 @@ form{
 }
 .video{
     max-height: 200px;
-}
-div.embed-responsive{
-	top:100px;
 }
 a.med {
 	display: none;
