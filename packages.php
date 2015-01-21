@@ -13,7 +13,7 @@
 <section id="packages" data-speed="6" data-type="background">
     <div class="container packages imgs top">
         <div class="row">
-        <h1 class="text-center font"> Packages</h1>
+        <h1 class="text-center font"> Leap Into Luxury</h1>
             <?php
                 require ('mysqli_connect.php'); 
                 $q = "SELECT destination_id AS id, image, title, price, alt FROM destinations WHERE destination_id < 10";

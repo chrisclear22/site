@@ -14,7 +14,23 @@
     <div class="container top_container">
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-med-12 col-lg-12">
-          <img class="img-responsive" src="_images/bora_bora/cliff_bora_bora_1140x560.jpg" alt="">
+           <?php 
+            require ('mysqli_connect.php'); 
+
+            if ((isset($_GET['id'])) && (is_numeric($_GET['id']))) {
+              $id = $_GET['id'];
+                $q = "SELECT top_image FROM destinations WHERE destination_id='$id'";
+              $result = mysqli_query($dbcon, $q);
+              if ($result){
+                $row = mysqli_fetch_array($result);
+              echo '<img class="img-responsive" src="' . $row['location_detail'] . '" alt="destination image">';
+              mysqli_free_result($result);
+               }
+                else{
+                  echo '<p> Sorry,but the page you have accessed is currently unavailable.<p>';
+                }
+           } 
+            ?>
         </div>
         <div class="col-xs-12"><hr></div>
       </div> <!-- end row -->
@@ -36,10 +52,21 @@
         </div> <!-- end package bullets column -->
 
           <div class="col-xs-12 col-sm-12 col-md-9 col-md-pull-3 col-lg-9 col-lg-pull-3"> <!-- package summary column -->
-            <h1 class="loc-name text-left">Bora Bora</h1>
-              <p>After landing at the Bora Bora Airport(BOB) you will travel via shuttle or small bus to the Four Seasons Resort Bora Bora where you will be staying in a two-bedroom overwater bungalow suite with plunge pool.</p>
-
-             <p> Upon checking in with our VIP concierge you will be provided with an optional itinerary. This will include a map with dates and times for your local travel, activities, and dining. The concierge will also provide you with information regarding nightlife and social activities you may be interested in, as well as seasonal events. Don’t forget your camera!</p>
+            <?php  
+            if ((isset($_GET['id'])) && (is_numeric($_GET['id']))) {
+              $id = $_GET['id'];
+                $q = "SELECT location_detail, activities, Dining, weather FROM destinations WHERE destination_id='$id'";
+              $result = mysqli_query($dbcon, $q);
+              if ($result){
+                $row = mysqli_fetch_array($result);
+              echo '' . $row['location_detail'] . '';
+              mysqli_free_result($result);
+               }
+                else{
+                  echo '<p> Sorry,but the page you have accessed is currently unavailable.<p>';
+                }
+           } 
+            ?>
           </div> <!-- end package summary column -->
           <div class="col-xs-12"><hr></div>
       </div> <!-- end location details row -->
@@ -48,29 +75,38 @@
           <div class="container loc-activities"> <!-- activities container -->
             <div class="row act-text">
               <div class="col-xs-12 col-sm-6 col-med-4 col-lg-4">
-                <img src="_images/bora_bora/bora_bora_square.jpg" class="img-responsive" alt="">
+                <?php 
+            if ((isset($_GET['id'])) && (is_numeric($_GET['id']))) {
+              $id = $_GET['id'];
+                $q = "SELECT act_image FROM destinations WHERE destination_id='$id'";
+              $result = mysqli_query($dbcon, $q);
+              if ($result){
+                $row = mysqli_fetch_array($result);
+              echo '<img class="img-responsive" src="' . $row['location_detail'] . '" alt="activity image">';
+              mysqli_free_result($result);
+               }
+                else{
+                  echo '<p> Sorry,but the page you have accessed is currently unavailable.<p>';
+                }
+           } 
+            ?>
               </div>
               <div class="col-xs-12 col-md-8 col-lg-8">
-              <h2 >Activities</h2>
-                  <p>We offer the best experiences for your trip. In order to do this we’ve searched far and wide to find the best of the best for your chosen activities, and since we know people have different interest we allow you to choose the activities for your Leap Trip package. Your package will include 2 activities (your choice) from the list below. You can contact our VIP concierge to get more info or schedule activities and don’t forget to use our spa after enjoying your activities after all it is included.</p>
-                  <div class="row">
-                    <div class="col-xs-12 col-sm-4 col-med-3 col-lg-3">
-                      <ul>
-                        <li>Helicopter Tour</li>
-                        <li>Snorkeling Adventure</li>
-                        <li>Catamaran Excursion</li>
-                        <li>Scuba Diving Adventure</li>
-                      </ul>
-                    </div>
-                    <div class="col-xs-12 col-sm-4 col-med-3 col-lg-3">
-                      <ul>
-                        <li>Parasailing</li>
-                        <li>Pearl Farm Tour</li>
-                        <li>4wd Safari</li>
-                        <li>Deep Sea Fishing</li>
-                      </ul>
-                    </div>
-                  </div> 
+              <?php  
+            if ((isset($_GET['id'])) && (is_numeric($_GET['id']))) {
+              $id = $_GET['id'];
+                $q = "SELECT location_detail, activities, Dining, weather FROM destinations WHERE destination_id='$id'";
+              $result = mysqli_query($dbcon, $q);
+              if ($result){
+                $row = mysqli_fetch_array($result);
+              echo '' . $row['activities'] . '';
+              mysqli_free_result($result);
+               }
+                else{
+                  echo '<p> Sorry,but the page you have accessed is currently unavailable.<p>';
+                }
+           } 
+            ?>
               </div>
               <div class="col-xs-12"><hr></div>
             </div>
@@ -78,31 +114,39 @@
           <div class="container loc-dining"> <!-- dining container -->
             <div class="row">
               <div class="col-xs-12 col-md-8 col-lg-8">
-                  <h2>Dining</h2>
-                  <p>There’s nothing more miserable than going somewhere and not enjoying the cuisine. We’ve done our best to remedy that. After booking you Leap Trip please contact our VIP concierge to make your dinner dining reservations. We are currently offering reservations at these fine locations and as always your breakfast will be served in your room.</p>
-                <div class="row">
-                  <div class="col-xs-12 col-sm-4 col-med-3 col-lg-3">
-                    <ul>
-                      <li>La Villa Mahana</li>
-                      <li>Restaurant St James</li>
-                      <li>Catamaran Excursion</li>
-                      <li>Lagoon Restaurant by Jean-Georges</li>
-                      <li>Mai Kai Bora Bora</li>
-                    </ul>
-                  </div>
-                  <div class="col-xs-12 col-sm-4 col-med-3 col-lg-3">
-                    <ul>
-                      <li>Matira Beach Restaurant</li>
-                      <li>Arli Moana</li>
-                      <li>Tere Nui</li>
-                      <li>Fare Hoa Beach Bar</li>
-                      <li>Sunset Restaurant &amp; Bar</li>
-                    </ul>
-                  </div>
-                </div> 
+                  <?php 
+            if ((isset($_GET['id'])) && (is_numeric($_GET['id']))) {
+              $id = $_GET['id'];
+                $q = "SELECT location_detail, activities, Dining, weather FROM destinations WHERE destination_id='$id'";
+              $result = mysqli_query($dbcon, $q);
+              if ($result){
+                $row = mysqli_fetch_array($result);
+              echo '' . $row['Dining'] . '';
+              echo '' . $row['weather'] . '';
+              mysqli_free_result($result);
+               }
+                else{
+                  echo '<p> Sorry,but the page you have accessed is currently unavailable.<p>';
+                }
+           } 
+            ?>
               </div>
               <div class="col-xs-12 col-sm-6 col-med-4 col-lg-4">
-                <img src="_images/bora_bora/bora_bora_square.jpg" class="img-responsive" alt="">
+                <?php  
+            if ((isset($_GET['id'])) && (is_numeric($_GET['id']))) {
+              $id = $_GET['id'];
+                $q = "SELECT din_image FROM destinations WHERE destination_id='$id'";
+              $result = mysqli_query($dbcon, $q);
+              if ($result){
+                $row = mysqli_fetch_array($result);
+              echo '<img class="img-responsive" src="' . $row['location_detail'] . '" alt="restaraunt image">';
+              mysqli_free_result($result);
+               }
+                else{
+                  echo '<p> Sorry,but the page you have accessed is currently unavailable.<p>';
+                }
+           } 
+            ?>
               </div>
               <div class="col-xs-12"><hr></div>
             </div>
