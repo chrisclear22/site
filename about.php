@@ -22,7 +22,7 @@
 <hr>
 <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
-      <img src="holder.js/300x300" alt="...">
+      <img src="_images/about_photos/jared.jpg" alt="jared">
       <div class="caption">
         <h2 class="text-center">Jared Brashears</h2>
         <h3 class="text-center">Project Manager</h3>
@@ -35,7 +35,7 @@
   </div>
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
-      <img src="holder.js/300x300" alt="...">
+      <img src="_images/about_photos/qazi.jpg" alt="qazi">
       <div class="caption">
         <h2 class="text-center">Qazi Islam</h2>
         <h3 class="text-center">Lead Designer</h3>
@@ -51,7 +51,7 @@
   </div>
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
-      <img src="holder.js/300x300" alt="...">
+      <img src="_images/about_photos/chris.jpg" alt="chris">
       <div class="caption">
         <h2 class="text-center">Christopher Clear</h2>
         <h3 class="text-center">Lead Developer</h3>
