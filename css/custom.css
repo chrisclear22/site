@@ -13,7 +13,7 @@
  White	-----------  #fff
 
 */ 
-this is a test
+
 /* NavBar Styles */
 
 nav img{
@@ -218,6 +218,62 @@ form.book input, form.book select{
 #tweed .thumbnail p{
 	color: black;
 }
+
+
+/*-------------  Destinations Page Styles -----------------*/
+/*---------------------------------------------------------*/
+.top_container {
+	margin-top: 100px;
+}
+.loca_details {
+	margin-bottom: 2em;
+}
+#googleMap {
+	margin-top: 20px;
+}
+.wu-logo {
+	font-size: 1.1em;
+}
+.wu-logo img {
+	height: 45px;
+}
+.loc-details, .loc-name, .loc-activities, .loc-dining, .loc-weath{
+	color: rgba(240,230,225,1);
+	line-height: 2em;
+}
+
+.loc-activities img, .loc-dining img {
+	margin-top: 20px;
+}
+.current_weather {
+	font-size: 1.5em;
+}
+.loc-name {
+	background-color: rgba(0,0,0,.3);
+	height:70px;
+	padding: 0 0 0 10px;
+}
+#weather_info {
+	background-color: rgba(0,0,0,.3);
+	height:45px;
+	padding: 8px;
+}
+.act-text h2 {
+	background-color: rgba(0,0,0,.3);
+	height:55px;
+	padding: 10px 0 0 10px;
+}
+.loc-dining h2 {
+	background-color: rgba(0,0,0,.3);
+	height:55px;
+	padding: 10px 0 0 10px;
+
+}
+/*-------------  End Destinations Page Styles -------------*/
+/*---------------------------------------------------------*/
+
+
+
 /* Extra small devices (phones,  767px and lower) */
 @media all and (max-width: 767px){ 
 
@@ -274,7 +330,6 @@ form{
 			padding: 100px 0px; 
 		}
 }
-
 @media all and (min-width: 768px) and (max-width:991px){
 .carousel, .item, .active{
 	max-height: 450px;
@@ -322,12 +377,9 @@ a.large{
     .navbar-collapse.collapse {
         display: none !important;
     }
-    #myCarousel{
-	top:0px;
+    .carousel-inner{
+	bottom:40px;
 } 
-.carousel-inner img{
-	margin-top:45px;
-}
     .navbar-collapse.collapse.in {
         display: block !important;
     }
@@ -398,9 +450,6 @@ nav img{
 }
 .carousel-caption{
 	bottom: 150px;
-}
-.carousel-inner img{
-	margin-top:75px;
 }
 .tron{
 	max-height: 500px;
