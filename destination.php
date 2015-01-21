@@ -3,8 +3,6 @@
 
 <?php include("head.php"); ?>
 
-
-
 <body>
 <?php include ("analyticstracking.php"); ?>
       <!-- Start of NavBar -->
@@ -20,7 +18,7 @@
       </div> <!-- end row -->
       
 
-      <div class="row local_details"> <!-- loca_details row -->
+      <div class="row loc-details"> <!-- loca_details row -->
           <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8"> <!--left column -->
             <?php 
             require ('mysqli_connect.php'); 
