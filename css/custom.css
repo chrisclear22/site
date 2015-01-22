@@ -277,6 +277,22 @@ form.book input, form.book select{
 /*-------------  End Destinations Page Styles -------------*/
 /*---------------------------------------------------------*/
 
+/*-------------  Contact Page Styles ----------------------*/
+/*---------------------------------------------------------*/
+.contact-test {
+	min-height: 400px;
+}
+.test-2{
+	background-color: green;
+	min-height: 400px;
+}
+.test-3{
+	background-color: orange;
+	min-height: 400px;
+}
+/*-------------  Contact Page Styles ----------------------*/
+/*---------------------------------------------------------*/
+
 
 
 /* Extra small devices (phones,  767px and lower) */
