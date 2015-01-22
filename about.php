@@ -41,7 +41,7 @@
         <h2 class="text-center">Qazi Islam</h2>
         <h3 class="text-center">Lead Designer</h3>
 
-        <p>My name is Qazi Islam. My obsession started when I was 13 and I hijacked my brothers DSLR. That day I found a new form of communication. Photography to me is the most organic form of communication;it’s the way I speak. The human connection is what I seek to capture while creating reference points in this great story of life for people. Being a creative starts by listening to your inner voice;if you can’t listen then you can’t speak. I hope you hear what I’m talking about and maybe someday we can speak.</p>
+        <p>I am the lead designer for LeapTrip. Designing Leaptrip was a great and hectic expereince for me from start to finish, even though there were many minor tweaks and considerations, we as a team got it done and to me thats the best part.</p>
         <a href="https://www.facebook.com/qazi.r.islam" class="webicon facebook" title="Qazi's Facebook"></a>
         <a href="https://twitter.com/QaziIslam" class="webicon twitter" title="Qazi's Twitter"></a>
         <a href="https://www.linkedin.com/in/qaziislam" class="webicon linkedin" title="Qazi's LinkedIn"></a>
