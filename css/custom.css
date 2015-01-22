@@ -288,18 +288,23 @@ body.thanks{
 
 /*-------------  Contact Page Styles ----------------------*/
 /*---------------------------------------------------------*/
+#body-2 {
+	background-color: #f5f5f5;
+	background-image: none;
+}
 .contact-test {
+	margin-bottom: 30px;
+}
+.contact-test div{
 	min-height: 400px;
 }
-.test-2{
+.cont-desc1{
 	background-color: green;
-	min-height: 400px;
 }
-.test-3{
+.cont-leap-lux{
 	background-color: orange;
-	min-height: 400px;
 }
-/*-------------  Contact Page Styles ----------------------*/
+/*-------------  End Contact Page Styles ----------------------*/
 /*---------------------------------------------------------*/
 
 
