@@ -10,7 +10,7 @@
                <a href="https://twitter.com/Leap_Trip" class="webicon twitter med pull-right" title="LeapTrip Twitter">Twitter</a>
             </div>
             <div>
-                <p class="text-left">&copy; LeapTrip 2014</p>
+                <p class="text-left">&copy; LeapTrip 2015</p>
             </div>
         </div>
     </footer>
