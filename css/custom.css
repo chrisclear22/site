@@ -82,7 +82,7 @@ div.img-caption button{
 	background-color: #00aeef;
 }
 div.img-caption button:hover{
-	background-color: #f15d22;
+	background-color: rgba(241,93,34,1);
 	color: #fff;
 }
 #intro span, #about span, #packages span{
@@ -90,7 +90,7 @@ div.img-caption button:hover{
 	max-width: 100px;
 }
 #intro span:hover, #about span:hover{
-	background-color: #f15d22;
+	background-color: rgba(241,93,34,1);
 }
 h1.font{
 	font-family: nexa_rust, sans-serif;
@@ -117,7 +117,7 @@ a:hover{
 
 /* Row of Featured Clients */
 .container.featured{
-	background-color: #f15d22;
+	background-color: rgba(241,93,34,1);
 	width: 100%;
 	color: white;
 }
@@ -286,29 +286,53 @@ body.thanks{
 /*-------------  End Destinations Page Styles -------------*/
 /*---------------------------------------------------------*/
 
+
+
 /*-------------  Contact Page Styles ----------------------*/
 /*---------------------------------------------------------*/
 #body-2 {
-	background-color: #f5f5f5;
+	background-color:rgba(240,230,218,1);
 	background-image: none;
+	font-family: times;
+	font-size: 2em;
+	color: rgba(241,111,75,1);
 }
-.contact-test {
+#body-2 h2{
+	font-size: 3em;
+}
+#body-2 h3{
+	font-size: 1.8em;
+}
+#body-2 h4{
+	font-size: 1.3em;
+}
+#body-2 .jumbotron {
+	background-image: url(../_images/contact_header.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	min-height: 350px;
+}
+.cont-desc1 {
+	background-color: rgba(183,207,217,1);
 	margin-bottom: 30px;
 }
-.contact-test div{
-	min-height: 400px;
+.cont-img {
+	background-image: url(../_images/sunset_beach.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	min-height: 350px;
+	margin-bottom: 30px;
 }
-.cont-desc1{
-	background-color: green;
-}
-.cont-leap-lux{
-	background-color: orange;
+.cont-form {
+	background: rgba(183,207,217,1);
 }
 /*-------------  End Contact Page Styles ----------------------*/
 /*---------------------------------------------------------*/
-
-
-
+(241,111,75,1)
+(217,58,38,1)
+background: rgba(241,93,34,1);
 /* Extra small devices (phones,  767px and lower) */
 @media all and (max-width: 767px){ 
 
