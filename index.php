@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html>
-
+<?php $page_title="Leap Trip | Home"; ?>
 <?php include("head.php"); ?>
 
 <body>
@@ -74,7 +72,7 @@
                         echo '<div class="col-lg-4 col-med-4 col-sm-6 col-xs-12">';
                         echo '<img class="img-thumbnail" src="' . $row['image'] . '" alt="' . $row['alt'] . '">';
                         echo '<div class="img-caption">';
-                        echo '<h2>' . $row['title'] . '</h2>';
+                        echo '<h2 class="font">' . $row['title'] . '</h2>';
                         echo '<p>' . $row['price'] . '</p>';
                         echo '<a href="destination.php?id=' . $row['id'] . '"><span class="btn center-block">More Info</span></a>';
                         echo '</div> </div>';}

@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<?php $page_title="Leap Trip | Details"; ?>
 <?php include("head.php"); ?>
 
 <body>
@@ -50,7 +48,7 @@
                 </ul>
                <form action="forms.php" >
                     <input type="hidden" value="<?php echo $id ?>" name="id" />
-                  <button class="btn btn-default" role="button">Book Now!</button>
+                  <button class="btn btn-default dest" role="button">Book Now!</button>
                 </form>
         </div> <!-- end package bullets column -->
 
@@ -171,7 +169,7 @@
                 </ul>
                <form action="forms.php" >
                     <input type="hidden" value="<?php echo $id ?>" name="id" />
-                  <button class="btn btn-default" role="button">Book Now!</button>
+                  <button class="btn btn-default dest" role="button">Book Now!</button>
                 </form>
         </div> <!-- end package bullets column -->
         </div>
@@ -182,7 +180,7 @@
                   <p class="current_weather">Currently: </p>
                   <h4>Today's Forecast:</h4>
                   <p class="weather_desc"></p>
-                  <p class="wu-logo">Powered by: <a href=""><img src="_images/wundergroundLogo_4c_rev_horz.png" alt="" class="img-responsive"></a></p>
+                  <p class="wu-logo">Powered by: <a href="http://www.wunderground.com/" title="weather underground"><img src="_images/wundergroundLogo_4c_rev_horz.png" alt="weather logo" class="img-responsive"></a></p>
               </div>   
               <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-8 col-lg-8">
                 <div id="googleMap" style="width:500p;height:310px;"></div>

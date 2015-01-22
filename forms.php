@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html>
+<?php $page_title="Leap Trip | Bookings"; ?>
 <?php include("head.php"); ?>
 <body>
 <?php include ("analyticstracking.php"); ?>

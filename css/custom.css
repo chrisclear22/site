@@ -156,6 +156,9 @@ color: #00aeef;
 .contact{
 	margin-top: 120px;
 }
+.dest{
+	margin-left: 1.5em;
+}
 #packages { 
 			background: url(../_images/para_photos/plane_para2.jpg) 50% 0 fixed; 
 			background-size: cover;
@@ -274,6 +277,12 @@ form.book input, form.book select{
 .includedbottom{
 	color: #fff;
 }
+h1.thanks{
+	margin:5em auto 5em;
+}
+body.thanks{
+	height: initial;
+}
 /*-------------  End Destinations Page Styles -------------*/
 /*---------------------------------------------------------*/
 
@@ -340,7 +349,8 @@ a.large{
 footer p{
 	line-height: 40px;
 	margin-bottom: 0px;
-	color: #fff;
+	margin-left: 1em;
+	color: #777;
 }
 form.book{
 	padding-top: 5em;
@@ -381,7 +391,8 @@ header{
 footer p{
 	line-height: 40px;
 	margin-bottom: 0px;
-	color: #fff;
+	margin-left: 1em;
+	color: #777;
 }
 form.book{
 	padding-top: 8em;
@@ -461,7 +472,8 @@ a.med{
 footer p{
 	line-height: 60px;
 	margin-bottom: 0px;
-	color: #fff;
+	margin-left: 1em;
+	color: #777;
 }
 form.book{
 	margin-top: 9em;
@@ -509,7 +521,8 @@ a.med {
 footer p{
 	line-height: 60px;
 	margin-bottom: 0px;
-	color: #fff;
+	margin-left: 1em;
+	color: #777;
 }
 /* --------- Paralax Scolling ----------- */
 

@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-     <a href=index class="php" ><img src="_images/leaptrip_logo/leaptrip_logo_orange_bg_clear.png" alt="logo image"></a>
+     <a href="index.php" title="Home Page"><img src="_images/leaptrip_logo/leaptrip_logo_orange_bg_clear.png" alt="logo"></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -21,7 +21,8 @@
       </ul>
       <form class="navbar-form navbar-right" role="search">
         <div class="form-group">
-          <input type="text" class="form-control" >
+        <label for="search" type="hidden">Search</label>
+          <input type="text" id="search" class="form-control" >
         </div>
         <button type="submit" class="btn btn-default">Search</button>
       </form>

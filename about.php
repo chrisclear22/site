@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html>
+<?php $page_title="Leap Trip | About"; ?>
 <?php include("head.php"); ?>
 <body>
 <?php include ("analyticstracking.php"); ?>
@@ -28,9 +27,9 @@
         <h2 class="text-center">Jared Brashears</h2>
         <h3 class="text-center">Project Manager</h3>
         <p>Hello, I am the lead developer for Leap Trip. Creating Leap Trip was a great experience from the beginning to finish. Although there where some rough patches and some major and minor tweaks that had to be made working on this project was very fulfilling.</p>
-        <a href="#" class="webicon facebook" title="Jared's Facebook"></a>
-        <a href="#" class="webicon twitter" title="Jared's Twitter"></a>
-        <a href="#" class="webicon linkedin" title="Jared's LinkedIn"></a>
+        <a href="#" class="webicon facebook" title="Jared's Facebook">Facebook</a>
+        <a href="#" class="webicon twitter" title="Jared's Twitter">Twitter</a>
+        <a href="#" class="webicon linkedin" title="Jared's LinkedIn">LinkedIn</a>
       </div>
     </div>
   </div>
@@ -42,9 +41,9 @@
         <h3 class="text-center">Lead Designer</h3>
 
         <p>I am the lead designer for LeapTrip. Designing Leaptrip was a great and hectic expereince for me from start to finish, even though there were many minor tweaks and considerations, we as a team got it done and to me thats the best part.</p>
-        <a href="https://www.facebook.com/qazi.r.islam" class="webicon facebook" title="Qazi's Facebook"></a>
-        <a href="https://twitter.com/QaziIslam" class="webicon twitter" title="Qazi's Twitter"></a>
-        <a href="https://www.linkedin.com/in/qaziislam" class="webicon linkedin" title="Qazi's LinkedIn"></a>
+        <a href="https://www.facebook.com/qazi.r.islam" class="webicon facebook" title="Qazi's Facebook">Facebook</a>
+        <a href="https://twitter.com/QaziIslam" class="webicon twitter" title="Qazi's Twitter">Twitter</a>
+        <a href="https://www.linkedin.com/in/qaziislam" class="webicon linkedin" title="Qazi's LinkedIn">LinkedIn</a>
 
 
       </div>
@@ -57,9 +56,9 @@
         <h2 class="text-center">Christopher Clear</h2>
         <h3 class="text-center">Lead Developer</h3>
         <p>I am the lead developer for Leap Trip. Creating Leap Trip was a great experience from the beginning to finish. Although there where some rough patches and some major and minor tweaks that had to be made working on this project was very fulfilling.</p>
-        <a href="http://facebook.com/christopher.clear.39" class="webicon facebook" title="Christopher's Facebook"></a>
-        <a href="http://twitter.com/chrisclear22" class="webicon twitter" title="Christopher's Twitter"></a>
-        <a href="http://www.linkedin.com/pub/christopher-clear/9a/566/b51" class="webicon linkedin" title="Christopher's LinkedIn"></a>
+        <a href="http://facebook.com/christopher.clear.39" class="webicon facebook" title="Christopher's Facebook">Facebook</a>
+        <a href="http://twitter.com/chrisclear22" class="webicon twitter" title="Christopher's Twitter">Twitter</a>
+        <a href="http://www.linkedin.com/pub/christopher-clear/9a/566/b51" class="webicon linkedin" title="Christopher's LinkedIn">LinkedIn</a>
       </div>
     </div>
   </div>
