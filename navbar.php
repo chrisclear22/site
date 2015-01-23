@@ -24,7 +24,7 @@
         <label for="search" type="hidden">Search</label>
           <input type="text" id="search" class="form-control" >
         </div>
-        <button type="submit" class="btn btn-default">Search</button>
+        <button type="submit" class="btn btn-default nav-search-button">Search</button>
       </form>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->

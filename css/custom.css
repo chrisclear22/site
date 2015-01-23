@@ -32,6 +32,9 @@ nav form{
 .nav li a{
 	color: #00aeef;
 }
+.nav-search-button {
+	margin-bottom: 11px;
+}
 
 /* Slider Styles */
 .carousel-inner img{
