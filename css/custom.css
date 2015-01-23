@@ -95,7 +95,7 @@ div.img-caption button:hover{
 #intro span:hover, #about span:hover{
 	background-color: rgba(241,93,34,1);
 }
-h1.font{
+h1.font, h2.font{
 	font-family: nexa_rust, sans-serif;
 	text-align: center;
 	margin-bottom: 0px;
@@ -104,9 +104,13 @@ h1.font{
 	margin-top:20px;
 }
 h2.font{
-	font-family: nexa_rust, sans-serif;
 	font-size: 4em;
-	margin-bottom: 0px;
+}
+h3.thanks, h4.thanks, h5.thanks{
+	text-align: center;
+	color: #fff;
+	margin-bottom: 7em;
+
 }
 a{
 	color: white;
@@ -281,11 +285,15 @@ form.book input, form.book select{
 	color: #fff;
 }
 h1.thanks{
-	margin:5em auto 5em;
+	margin:5em auto 1em;
+}
+h2.thanks{
+	margin-bottom: 1em;
 }
 body.thanks{
-	height: initial;
+	height:initial;
 }
+
 /*-------------  End Destinations Page Styles -------------*/
 /*---------------------------------------------------------*/
 
@@ -330,12 +338,11 @@ body.thanks{
 }
 .cont-form {
 	background: rgba(183,207,217,1);
+	
 }
 /*-------------  End Contact Page Styles ----------------------*/
 /*---------------------------------------------------------*/
-(241,111,75,1)
-(217,58,38,1)
-background: rgba(241,93,34,1);
+
 /* Extra small devices (phones,  767px and lower) */
 @media all and (max-width: 767px){ 
 
@@ -401,7 +408,7 @@ form.book{
 }
 @media all and (min-width: 768px) and (max-width:991px){
 .carousel, .item, .active{
-	max-height: 450px;
+	max-height: 425px;
 } 
 .carousel-caption{
 	bottom: 50px;
@@ -453,8 +460,8 @@ a.large{
     .navbar-collapse.collapse {
         display: none !important;
     }
-    .carousel-inner{
-	bottom:40px;
+   #myCarousel{
+	top:60px;
 } 
     .navbar-collapse.collapse.in {
         display: block !important;

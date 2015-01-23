@@ -1,5 +1,5 @@
 <?php $page_title="Leap Trip | Bookings"; ?>
-<?php include("head.php"); ?>
+<?php include("head2.php"); ?>
 <body>
 <?php include ("analyticstracking.php"); ?>
 	
@@ -8,139 +8,136 @@
 	<!-- End of NavBar -->
 
  <?php include("jumbotron.php"); ?>
- <?php 
-            require ('mysqli_connect.php'); 
+ <?php include("form_php.php"); ?>
 
-            if ((isset($_GET['id'])) && (is_numeric($_GET['id']))) {
-              $id = $_GET['id'];
-                $q = "SELECT price, title FROM destinations WHERE destination_id='$id'";
-              $result = mysqli_query($dbcon, $q);
-              if ($result){
-                $row = mysqli_fetch_array($result);
-         
-               }
-                else{
-                  echo '<p> Sorry,but the page you have accessed is currently unavailable.<p>';
-                }
-           } 
-            ?>
+<div class="nav1">
+	<ul>
+		<li id="activetab" title="Personal Information">Step 1</li>
+		<li title="Destination Details">Step 2</li>
+		<li title="Payment Information">Step 3</li>
+	</ul>
+</div>
 
-    <div class="container">
-<form role="form" class="book" action="thanks.php" method="post">
-  <fieldset>
-  <legend>Personal Information</legend>
-  <div class="row">
-    <div class="col-xs-5">
-    <label for="firstName">First Name<span class="req"> *</span></label>
-    <input type="text" class="form-control" name="firstName" id="firstName" placeholder="First" value="<?php if (isset($_POST['firstName'])) echo $_POST['firstName']; ?>" required>
-  </div>
-  <div class="col-xs-5">
-    <label for="lastName">Last Name <span class="req"> *</span></label>
-    <input type="text" class="form-control" name="lastName" id="lastName" placeholder="Last" value="<?php if (isset($_POST['lastName'])) echo $_POST['lastName']; ?>" required>
-  </div>
-  <div class="col-xs-5">
-    <label for="address">Street Address<span class="req"> *</span></label>
-    <input type="text" class="form-control" id="address" name="address" value="<?php if (isset($_POST['address'])) echo $_POST['address']; ?>" required>
-  </div>
-  </div>
-  <div class="row">
-  <div class="col-xs-5">
-    <label for="city">City<span class="req"> *</span></label>
-    <input type="text" class="form-control" id="city" name="city" value="<?php if (isset($_POST['city'])) echo $_POST['city']; ?>" required>
-  </div>
-  <div class="col-xs-3">
-    <label for="state">State<span class="req"> *</span></label>
-    <select class="form-control" id="state" name="state" required>
-      <option value="">-- Select State --</option>
-      <option value="Alabama">AL</option>
-      <option value="Alaska">AK</option>
-      <option value="Arizona">AZ</option>
-      <option value="Arkansas">AR</option>
-      <option value="California">CA</option>
-      <option value="Colorado">CO</option>
-      <option value="Connecticut">CT</option>
-      <option value="Delaware">DE</option>
-      <option value="Florida">FL</option>
-      <option value="Georgia">GA</option>
-      <option value="Hawaii">HI</option>
-      <option value="Idaho">ID</option>
-      <option value="Illinois">IL</option>
-      <option value="Indiana">IN</option>
-      <option value="Iowa">IA</option>
-      <option value="Kansas">KS</option>
-      <option value="Kentucky">KY</option>
-      <option value="Louisiana">LA</option>
-      <option value="Maine">ME</option>
-      <option value="Maryland">MD</option>
-      <option value="Massachusetts">MA</option>
-      <option value="Michigan">MI</option>
-      <option value="Minnesota">MN</option>
-      <option value="Mississippi">MS</option>
-      <option value="Missouri">MO</option>
-      <option value="Montana">MT</option>
-      <option value="Nebraska">NE</option>
-      <option value="Nevada">NV</option>
-      <option value="New Hampshire">NH</option>
-      <option value="New Jersey">NJ</option>
-      <option value="New Mexico">NM</option>
-      <option value="New York">NY</option>
-      <option value="North Carolina">NC</option>
-      <option value="North Dakota">ND</option>
-      <option value="Ohio">OH</option>
-      <option value="Oklahoma">OK</option>
-      <option value="Oregon">OR</option>
-      <option value="Pennsylvania">PA</option>
-      <option value="Rhode Island">RI</option>
-      <option value="South Carolina">SC</option>
-      <option value="South Dakota">SD</option>
-      <option value="Tennessee">TN</option>
-      <option value="Texas">TX</option>
-      <option value="Utah">UT</option>
-      <option value="Vermont">VT</option>
-      <option value="Virginia">VA</option>
-      <option value="Washington">WA</option>
-      <option value="West Virginia">WV</option>
-      <option value="Wisconsin">WI</option>
-      <option value="Wyoming">WY</option>
-    </select>
-  </div>
-  <div class="col-xs-2">
-    <label for="zip">Zip<span class="req"> *</span></label>
-    <input type="text" class="form-control" id="zip" name="zip" value="<?php if (isset($_POST['zip'])) echo $_POST['zip']; ?>" required>
-  </div>
-  </div>
-  <div class="row">
-   <div class="col-xs-5">
-    <label for="phone">Phone</label>
-    <input type="text" class="form-control" id="phone" name="phone" value="<?php if (isset($_POST['phone'])) echo $_POST['phone']; ?>">
-  </div>
-  <div class="col-xs-5">
-    <label for="email1">Email<span class="req"> *</span></label>
-    <input type="email" class="form-control" id="email1" name="email" placeholder="Enter email" value="<?php if (isset($_POST['email'])) echo $_POST['email']; ?>" required>
-  </div>
-  </div>
-  </fieldset>
-  <fieldset>
-  <legend>Destination Details</legend>
-  <div class="row">
-  <div class="col-xs-4">
-    <label for="destination">Destination<span class="req"> *</span></label>
-    <input class="form-control" name="destination" id="destination" value="<?php echo $row['title'] ;?>" required readonly="readonly">
-    </div>
-    <div class="col-xs-4">
-    <label for="departure">Departure Date<span class="req"> *</span></label>
-    <input class="form-control" type="date" name="departure" id="departure" required>
-    </div>
-    <div class="col-xs-4">
-    <label for="return">Return Date<span class="req"> *</span></label>
-    <input class="form-control" type="date" name="return" id="return">
-    </div>
-    </div>
-    <div class="row">
-    <div class="col-xs-5">
-    <label for="from">Flying From<span class="req"> *</span></label>
-    <select class="form-control" name="from" id="from" required>
-    <option value="">-- Select Air-Port --</option>
+<form id="myform" class="group" action="#" method="POST">
+	<fieldset id="login" title="Personal Information">
+		<legend>Personal Information</legend>
+		<ol>
+			<li>
+				<label for="firstName">First Name<span class="req"> *</span></label>
+    			<input type="text" class="form-control" name="firstName" id="firstName" placeholder="First" value="<?php if (isset($_POST['firstName'])) echo $_POST['firstName']; ?>" required>			</li>
+			<li>
+				<label for="lastName">Last Name <span class="req"> *</span></label>
+    			<input type="text" class="form-control" name="lastName" id="lastName" placeholder="Last" value="<?php if (isset($_POST['lastName'])) echo $_POST['lastName']; ?>" required>
+			</li>
+			<li>
+				<label for="address">Street Address<span class="req"> *</span></label>
+    			<input type="text" class="form-control" id="address" name="address" value="<?php if (isset($_POST['address'])) echo $_POST['address']; ?>" required>
+			</li>
+			<li>
+				<label for="city">City<span class="req"> *</span></label>
+   			    <input type="text" class="form-control" id="city" name="city" value="<?php if (isset($_POST['city'])) echo $_POST['city']; ?>" required>
+			</li>
+			<li>
+				<label for="state">State *</label>
+				<select name="state" id="state" required> 
+					  <option value="">-- Select State --</option>
+				      <option value="Alabama">AL</option>
+				      <option value="Alaska">AK</option>
+				      <option value="Arizona">AZ</option>
+				      <option value="Arkansas">AR</option>
+				      <option value="California">CA</option>
+				      <option value="Colorado">CO</option>
+				      <option value="Connecticut">CT</option>
+				      <option value="Delaware">DE</option>
+				      <option value="Florida">FL</option>
+				      <option value="Georgia">GA</option>
+				      <option value="Hawaii">HI</option>
+				      <option value="Idaho">ID</option>
+				      <option value="Illinois">IL</option>
+				      <option value="Indiana">IN</option>
+				      <option value="Iowa">IA</option>
+				      <option value="Kansas">KS</option>
+				      <option value="Kentucky">KY</option>
+				      <option value="Louisiana">LA</option>
+				      <option value="Maine">ME</option>
+				      <option value="Maryland">MD</option>
+				      <option value="Massachusetts">MA</option>
+				      <option value="Michigan">MI</option>
+				      <option value="Minnesota">MN</option>
+				      <option value="Mississippi">MS</option>
+				      <option value="Missouri">MO</option>
+				      <option value="Montana">MT</option>
+				      <option value="Nebraska">NE</option>
+				      <option value="Nevada">NV</option>
+				      <option value="New Hampshire">NH</option>
+				      <option value="New Jersey">NJ</option>
+				      <option value="New Mexico">NM</option>
+				      <option value="New York">NY</option>
+				      <option value="North Carolina">NC</option>
+				      <option value="North Dakota">ND</option>
+				      <option value="Ohio">OH</option>
+				      <option value="Oklahoma">OK</option>
+				      <option value="Oregon">OR</option>
+				      <option value="Pennsylvania">PA</option>
+				      <option value="Rhode Island">RI</option>
+				      <option value="South Carolina">SC</option>
+				      <option value="South Dakota">SD</option>
+				      <option value="Tennessee">TN</option>
+				      <option value="Texas">TX</option>
+				      <option value="Utah">UT</option>
+				      <option value="Vermont">VT</option>
+				      <option value="Virginia">VA</option>
+				      <option value="Washington">WA</option>
+				      <option value="West Virginia">WV</option>
+				      <option value="Wisconsin">WI</option>
+				      <option value="Wyoming">WY</option>
+				</select>
+			</li>
+			<li>
+				<label for="zip">Zip<span class="req"> *</span></label>
+    			<input type="text" class="form-control" id="zip" name="zip" value="<?php if (isset($_POST['zip'])) echo $_POST['zip']; ?>" required>
+			</li>
+			<li>
+				<label for="phone">Phone</label>
+   				<input type="text" class="form-control" id="phone" name="phone" value="<?php if (isset($_POST['phone'])) echo $_POST['phone']; ?>">
+
+			</li><li>
+				<label for="email1">Email<span class="req"> *</span></label>
+    			<input type="email" class="form-control" id="email1" name="email" placeholder="Enter email" value="<?php if (isset($_POST['email'])) echo $_POST['email']; ?>" required>
+			</li>
+		</ol>
+		<div class="buttonnav next">next</div>
+	</fieldset>
+	<fieldset id="other" class="hidden1" title="Destination Details">
+		<legend>Destination Details</legend>
+		<ol>
+			<li>
+				<label for="destination">Destination *</label>
+				<select name="destination" id="destination" required> 
+					  <option value="">-- Select Destination --</option>
+				      <option value="Bora Bora">Bora Bora</option>
+				      <option value="Cancun">Cancun</option>
+				      <option value="Costa Rica">Costa Rica</option>
+				      <option value="Kauai">Kauai</option>
+				      <option value="Las Vegas">Las Vegas</option>
+				      <option value="New York">New York</option>
+				      <option value="Paris">Paris</option>
+				      <option value="Venice">Venice</option>
+				      <option value="Dubai">Dubai</option>
+				</select>
+			</li>
+			<li>
+				<label for="departure">Departure Date *</label>
+				<input type="date" name="departure" id="departure" required/>
+			</li>
+			<li>
+				<label for="return">Return Date *</label>
+				<input type="date" name="return" id="return" required/>
+			</li>
+			<li>
+				<label for="from">Flying From *</label>
+				<select name="from" id="from" required> 
+					  <option value="">-- Select Air-Port --</option>
 		<option value="ABR"> 	Aberdeen, SD (ABR) 	</option>	   
 		<option value="ABI">	Abilene, TX (ABI)	</option>	   
 		<option value="ADK">	Adak Island, AK (ADK)	</option>	   
@@ -873,49 +870,49 @@
 		<option value="YAK">	Yakutat, AK (YAK)	</option>	   
 		<option value="COD">	Yellowstone/Cody, WY (COD)	</option>	   
 		<option value="YNG">	Youngstown, OH (YNG)	</option>	   
-		<option value="YUM"> 	Yuma, AZ (YUM) 	</option>	 
+		<option value="YUM"> 	Yuma, AZ (YUM) 	</option>
+				</select>
+			</li>
+			<li>
+				<label for="to">Flying To</label>
+				<input type="text" name="to" id="to" />
+			</li>
+			<li>
+				<label for="adult">Adults<span class="req"> *</span></label>
+				    <select class="form-control" name="adult" id="adult">
+				    	<option value="1">1</option>
+				    	<option value="2">2</option>
+				    	<option value="3">3</option>
+				    	<option value="4">4</option>
+				    	<option value="5">5</option>
+				    	<option value="6">6</option>
+				    </select>
+			</li>
+			<li>
+				<label for="child">Children</label>
+				    <select class="form-control" name="child" id="child">
+				    	<option value="0">0</option>
+				    	<option value="1">1</option>
+				    	<option value="2">2</option>
+				    	<option value="3">3</option>
+				    	<option value="4">4</option>
+				    	<option value="5">5</option>
+				    </select>
+			</li>
+			<li>
+				<label for="cost">Cost</label>
+    			<input class="form-control" type="text" name="cost" id="cost" placeholder="$0.00">
+    			</li>
 
-    </select>
-    </div>
-    <div class="col-xs-5">
-    <label for="to">Flying To<span class="req"> *</span></label>
-    <input class="form-control" type="text" name="to" id="to" value="<?php echo $row['title'] ;?>" required readonly="readonly">
-    </div>
-    </div>
-    <div class="row">
-    <div class="col-xs-3">
-    <label for="adult">Adults<span class="req"> *</span></label>
-    <select class="form-control" name="adult" id="adult">
-    	<option value="1">1</option>
-    	<option value="2">2</option>
-    	<option value="3">3</option>
-    	<option value="4">4</option>
-    	<option value="5">5</option>
-    	<option value="6">6</option>
-    </select>
-    </div>
-    <div class="col-xs-3">
-    <label for="child">Children</label>
-    <select class="form-control" name="child" id="child">
-    	<option value="0">0</option>
-    	<option value="1">1</option>
-    	<option value="2">2</option>
-    	<option value="3">3</option>
-    	<option value="4">4</option>
-    	<option value="5">5</option>
-    </select>
-    </div>
-    <div class="col-xs-4">
-    <label for="cost">Cost</label>
-    <input class="form-control" type="text" name="cost" id="cost" value="<?php echo $row['price'] ; mysqli_free_result($result);?>" readonly="readonly">
-    </div>
-    </div>
-  </fieldset>
- <fieldset>
- 	<legend>Purchase Information</legend>
- 	<div class="row">
- 	<div class="col-xs-4">
- 	<label for="type">Card Type<span class="req"> *</span></label>
+		</ol>
+		<div class="buttonnav prev">prev</div>
+		<div class="buttonnav next">next</div>
+	</fieldset>
+	<fieldset id="comments"  class="hidden1" title="Payment Information">
+	<legend>Payment Information</legend>
+		<ol>
+			<li>
+				<label for="type">Card Type<span class="req"> *</span></label>
  	<select class="form-control" name="type" id="type" required>
  	<option value="">-- Select Type --</option>
  		<option value="visa">Visa</option>
@@ -923,61 +920,58 @@
  		<option value="discovery">Discovery</option>
  		<option value="american-express">American Express</option>
  	</select>
- 	</div>
- 	<div class="col-xs-5">
- 	<label for="number">Card Number<span class="req"> *</span></label>
- 	<input class="form-control" type="text" name="number" id="number" placeholder="5555-0000-3333-0000" value="5555-0000-3333-0000" readonly="readonly" required>
- 	</div>
- 	<div class="col-xs-3">
- 	<label for="code">CCV Code<span class="req"> *</span></label>
- 	<input class="form-control" type="text" name="code" id="code" placeholder="357" value="357" readonly="readonly" required>
- 	</div>
- 	<div class="col-xs-6 col-sm-3 col-md-3">
- 		<label for="month">Month<span class="req"> *</span></label>
- 		<select class="form-control" name="month" id="month" required>
- 			<option value="">-- Month --</option>
- 			<option value="1">01 Jan</option>
- 			<option value="2">02 Feb</option>
- 			<option value="3">03 Mar</option>
- 			<option value="4">04 Apr</option>
- 			<option value="5">05 May</option>
- 			<option value="6">06 Jun</option>
- 			<option value="7">07 Jul</option>
- 			<option value="8">08 Aug</option>
- 			<option value="9">09 Sep</option>
- 			<option value="10">10 Oct</option>
- 			<option value="11">11 Nov</option>
- 			<option value="12">12 Dec</option>
- 		</select>
- 	</div>
- 	<div class="col-xs-6 col-sm-3 col-md-3">
- 	<label for="year">Year<span class="req"> *</span></label>
- 		<select class="form-control" name="year" id="year" required>
- 			<option value="">-- Year --</option>
- 			<option value="2015">2015</option>
- 			<option value="2016">2016</option>
- 			<option value="2017">2017</option>
- 			<option value="2018">2018</option>
- 			<option value="2019">2019</option>
- 			<option value="2020">2020</option>
- 			<option value="2021">2021</option>
- 			<option value="2022">2022</option>
- 			<option value="2023">2023</option>
- 			<option value="2024">2024</option>
- 			<option value="2025">2025</option>
- 			<option value="2026">2026</option>
- 		</select>
- 	</div>
- 	</div>
- </fieldset> 
-	<button type="submit" class="btn btn-default right" >Book Now</button>
+			</li>
+			<li>
+				<label for="number">Card Number<span class="req"> *</span></label>
+ 	<input class="form-control" type="text" name="number" id="number" placeholder="5555-0000-3333-0000" value="5555-0000-3333-0000" readonly="readonly" required>			</li>
+			<li>
+				<label for="code">CCV Code<span class="req"> *</span></label>
+ 	            <input class="form-control" type="text" name="code" id="code" placeholder="357" value="357" readonly="readonly" required>
+			</li>
+			<li>
+				<label for="month">Month<span class="req"> *</span></label>
+		 		<select class="form-control" name="month" id="month" required>
+		 			<option value="">-- Month --</option>
+		 			<option value="1">01 Jan</option>
+		 			<option value="2">02 Feb</option>
+		 			<option value="3">03 Mar</option>
+		 			<option value="4">04 Apr</option>
+		 			<option value="5">05 May</option>
+		 			<option value="6">06 Jun</option>
+		 			<option value="7">07 Jul</option>
+		 			<option value="8">08 Aug</option>
+		 			<option value="9">09 Sep</option>
+		 			<option value="10">10 Oct</option>
+		 			<option value="11">11 Nov</option>
+		 			<option value="12">12 Dec</option>
+		 		</select>
+			</li>
+			<li>
+				<label for="year">Year<span class="req"> *</span></label>
+			 	<select class="form-control" name="year" id="year" required>
+			 		<option value="">-- Year --</option>
+			 		<option value="2015">2015</option>
+			 		<option value="2016">2016</option>
+					<option value="2017">2017</option>
+		 			<option value="2018">2018</option>
+		 			<option value="2019">2019</option>
+			 		<option value="2020">2020</option>
+			 		<option value="2021">2021</option>
+			 		<option value="2022">2022</option>
+					<option value="2023">2023</option>
+					<option value="2024">2024</option>
+			 		<option value="2025">2025</option>
+			 		<option value="2026">2026</option>
+				</select>
+			</li>
+			
+		</ol>
+		<div class="buttonnav prev">prev</div>
+		<button type="submit">Book</button>
+	</fieldset>
 </form>
-</div>
-
     <!-- Start of Footer -->
 <?php include("footer.php"); ?>
 	<!-- End of Footer -->
-
-
 </body>
 </html>

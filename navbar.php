@@ -21,7 +21,7 @@
       </ul>
       <form class="navbar-form navbar-right" role="search">
         <div class="form-group">
-        <label for="search" type="hidden">Search</label>
+        <label for="search" class="hidden"></label>
           <input type="text" id="search" class="form-control" >
         </div>
         <button type="submit" class="btn btn-default nav-search-button">Search</button>

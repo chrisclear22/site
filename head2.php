@@ -8,10 +8,8 @@
      <?php echo("<title>$page_title</title>"); ?>
     <link rel="shortcut icon" href="_images/leaptrip_logo/leaptrip.ico" type="image/x-icon" />
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/full-slider.css">
     <link rel="stylesheet" type="text/css" href="css/custom.css">
-    <link rel="stylesheet" type="text/css" href="webicons.css">
-    <link rel="stylesheet" href="css/fonts/stylesheet.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="css/mystyle.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/jquery-1.7.1.min.js" type="text/javascript"></script>
+    <script src="js/myscript.js" type="text/javascript"></script>
 </head>
