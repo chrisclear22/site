@@ -1,6 +1,6 @@
 <?php $page_title="Leap Trip | Contact Info"; ?>
 <?php include("head.php"); ?>
-<body>
+<body id="body2">
 <?php include ("analyticstracking.php"); ?>
 		<!-- Start of NavBar -->
 <?php include("navbar.php"); ?>
