@@ -40,7 +40,7 @@
         <h2 class="text-center">Qazi Islam</h2>
         <h3 class="text-center">Lead Designer</h3>
 
-        <p>I am the lead designer for LeapTrip. Designing Leaptrip was a great and hectic expereince for me from start to finish, even though there were many minor tweaks and considerations, we as a team got it done and to me thats the best part.</p>
+        <p>Hello, I am the lead designer for leaptrip. Designing Leaptrip was a great and hectic expereince for me from start to finish, even though there were many minor tweaks and considerations, we as a team got it done and to me, thats the best part.</p>
         <a href="https://www.facebook.com/qazi.r.islam" class="webicon facebook" title="Qazi's Facebook">Facebook</a>
         <a href="https://twitter.com/QaziIslam" class="webicon twitter" title="Qazi's Twitter">Twitter</a>
         <a href="https://www.linkedin.com/in/qaziislam" class="webicon linkedin" title="Qazi's LinkedIn">LinkedIn</a>
