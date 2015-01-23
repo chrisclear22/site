@@ -26,7 +26,7 @@
             ?>
 
     <div class="container">
-<form role="form" class="book" action="thanks.php" method="post">
+<form role="form" id="book" class="book" action="thanks.php" method="post">
   <fieldset>
   <legend>Personal Information</legend>
   <div class="row">
@@ -883,9 +883,9 @@
     </div>
     </div>
     <div class="row">
-    <div class="col-xs-3">
+    <div class="col-xs-3 adult">
     <label for="adult">Adults<span class="req"> *</span></label>
-    <select class="form-control" name="adult" id="adult">
+    <select class="form-control" name="adult" onchange="estimateTotal()" id="adult">
     	<option value="1">1</option>
     	<option value="2">2</option>
     	<option value="3">3</option>
@@ -894,9 +894,9 @@
     	<option value="6">6</option>
     </select>
     </div>
-    <div class="col-xs-3">
+    <div class="col-xs-3 child">
     <label for="child">Children</label>
-    <select class="form-control" name="child" id="child">
+    <select class="form-control" name="child" onchange="estimateTotal()" id="child">
     	<option value="0">0</option>
     	<option value="1">1</option>
     	<option value="2">2</option>
@@ -907,7 +907,7 @@
     </div>
     <div class="col-xs-4">
     <label for="cost">Cost</label>
-    <input class="form-control" type="text" name="cost" id="cost" value="<?php echo $row['price'] ; mysqli_free_result($result);?>" readonly="readonly">
+    <input class="form-control" type="text" name="cost" id="cost" value="" readonly="readonly">
     </div>
     </div>
   </fieldset>

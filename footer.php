@@ -15,7 +15,56 @@
         </div>
     </footer>
 </div>
+<script type="text/javascript">
 
+document.getElementById('book').addEventListener('onchange', estimateTotal);
+var childprice = 0;
+var adultprice = 0;
+
+function estimateTotal() {
+event.preventDefault();
+  var adult = document.getElementById('adult');
+  var child = document.getElementById('child');
+  
+  
+  
+  
+  if (adult === '1') {
+    adultprice = 0; 
+  } else if (adult === "2"){
+    adultprice = 350;
+  } else if (adult === "3"){
+    adultprice = 700;
+  } else if (adult === "4"){
+    adultprice = 1050;
+  } else if (adult === "5"){
+    adultprice = 1400;
+  } else if (adult === "5"){
+    adultprice = 1750;
+  }
+  
+  
+  
+  if (child === '0') {
+    childprice = 0; 
+  } else if (child === "1"){
+    childprice = 250;
+  } else if (child === "2"){
+    childprice = 500;
+  } else if (child === "3"){
+    childprice = 750;
+  } else if (child === "4"){
+    childprice = 1000;
+  } else if (child === "5"){
+    childprice = 1250;
+  }   
+    
+  }
+  
+  var estimate = "$" + (adultprice + childprice).toFixed(2);
+  document.getElementById('cost').value = estimate;
+}
+</script>
 <script src="js/bootstrap.min.js"></script>
 
  <script>

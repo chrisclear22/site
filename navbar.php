@@ -19,12 +19,12 @@
         <li><a href="packages.php" title="Vacation Packages">Vacations</a></li>
         <li><a href="contact.php" title="contact">Contact Us</a></li>
       </ul>
-      <form class="navbar-form navbar-right" role="search">
+      <form class="navbar-form navbar-right" action="search.php" method="GET" role="search">
         <div class="form-group">
         <label for="search" class="hidden"></label>
-          <input type="text" id="search" class="form-control" >
+          <input type="text" id="search" name="search" class="form-control">
         </div>
-        <button type="submit" class="btn btn-default nav-search-button">Search</button>
+        <input type="submit" class="btn btn-default nav-search-button" id="submit" name="submit">Search</input>
       </form>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->

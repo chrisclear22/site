@@ -231,6 +231,12 @@ form.book input, form.book select{
 #tweed .thumbnail p{
 	color: black;
 }
+body.search h1.loc-name{
+	margin-top: 100px;
+}
+body.search span{
+	margin-top: 50px;
+}
 
 
 /*-------------  Destinations Page Styles -----------------*/
