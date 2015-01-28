@@ -32,28 +32,24 @@
     </div>
     <div class="row">
         <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 cont-form">
-            <h2>Contact</h2>
-            <p>Send your thoughts and questions for a mini Leaptrip!</p>
-            <form>
+            <h2 class="text-center">Contact</h2>
+            <p>Send your comments or questions</p>
+            <form method="post" class="contact" action="feedback.php">
               <div class="form-group">
                 <label for="inputEmail1">Email address</label>
-                <input type="email" class="form-control" id="inputEmail1" placeholder="jon@leaptrip.com">
+                <input type="email" class="form-control" id="inputEmail1" name="inputEmail1" placeholder="jon@leaptrip.com">
               </div>
               <div class="form-group">
                 <label for="inputName">Name: First &amp; Last</label>
-                <input type="custName" class="form-control" id="inputName" placeholder="jon smith">
+                <input type="custName" class="form-control" id="inputName" name="inputName" placeholder="jon smith">
               </div>
               <div class="form-group">
                 <label for="inputPhone">Phone &#35;</label>
-                <input type="tel" class="form-control" id="tel" placeholder="(123)456-789">
+                <input type="tel" class="form-control" id="inputPhone" name="inputPhone" placeholder="(123)456-789">
               </div>
               <div class="form-group">
-                <label for="inputOrderNum">Order or Reference &#35;</label>
-                <input type="orderNum" class="form-control" id="orderNum" placeholder="44-123-44">
-              </div>
-              <div class="form-group">
-                <label for="message">How can we help?</label>
-                <textarea class="form-control" rows="5"></textarea>
+                <label for="inputMessage">How can we help?</label>
+                <textarea class="form-control" id="inputMessage" name="inputMessage" rows="5"></textarea>
               </div>
               <button type="submit" class="btn btn-default">Leap Now!</button>
             </form>

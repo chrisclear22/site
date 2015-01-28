@@ -13,7 +13,7 @@ require ('mysqli_connect.php');
 
 	if(isset($_GET['search'])){
 	$info = $_GET['search'];
-$q = "SELECT location_detail, destination_id AS id FROM destinations WHERE title LIKE '%" . $info . "%' OR location_detail LIKE '%" . $info . "%'"; 
+$q = "SELECT location_detail, destination_id AS id FROM destinations WHERE title LIKE '%" . $info . "%' OR location_detail LIKE '%" . $info . "%'" AND > 10; 
 
 echo $q;
 

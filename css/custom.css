@@ -32,9 +32,6 @@ nav form{
 .nav li a{
 	color: #00aeef;
 }
-.nav-search-button {
-	margin-bottom: 3.5px;
-}
 
 /* Slider Styles */
 .carousel-inner img{
@@ -234,8 +231,14 @@ form.book input, form.book select{
 body.search h1.loc-name{
 	margin-top: 100px;
 }
-body.search span{
+body.search a span{
 	margin-top: 50px;
+	font-size: 2em;
+}
+body.search p{
+	color: #fff;
+	max-width: 98%;
+	margin: auto;
 }
 
 
@@ -307,9 +310,7 @@ body.thanks{
 
 /*-------------  Contact Page Styles ----------------------*/
 /*---------------------------------------------------------*/
-#body-2 {
-	font-size: 2em;
-}
+
 #body-2 h2{
 	font-family: 'nexa_rust';
 	font-size: 3em;
@@ -328,8 +329,12 @@ body.thanks{
 	background-size: cover;
 	min-height: 350px;
 }
+form.contact{
+	margin-bottom: .5em;
+}
 .cont-desc1 {
-	background-color: rgba(183,207,217,1);
+	font-size: 2em;
+	background-color: #969696;
 	margin-bottom: 30px;
 }
 .cont-desc1 h4 a {
@@ -347,7 +352,9 @@ body.thanks{
 	margin-bottom: 30px;
 }
 .cont-form {
-	background: rgba(183,207,217,1);
+	font-size: 2em;
+	background: #969696;
+	margin-bottom: 1em;
 	
 }
 /*-------------  End Contact Page Styles ----------------------*/
