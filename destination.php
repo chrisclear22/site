@@ -1,11 +1,11 @@
 <?php $page_title="Leap Trip | Details"; ?>
-<?php include("head.php"); ?>
+<?php include("head_min.php"); ?>
 
 <body>
 <?php include ("analyticstracking.php"); ?>
 
   <!-- Start of NavBar -->
-<?php include("navbar.php"); ?>
+<?php include("navbar_min.php"); ?>
   <!-- End of NavBar -->
 
 
@@ -188,7 +188,7 @@
             </div> 
           </div> <!-- end weather and map container -->
           
- <?php include("footer.php"); ?>
+ <?php include("footer_min.php"); ?>
 
 </body>
 </html>

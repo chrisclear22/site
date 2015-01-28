@@ -1,10 +1,10 @@
 <?php $page_title="Leap Trip | Search"; ?>
-<?php include("head.php"); ?>
+<?php include("head_min.php"); ?>
 <body class="search">
 <?php include ("analyticstracking.php"); ?>
 	
 	<!-- Start of NavBar -->
-<?php include("navbar.php"); ?>
+<?php include("navbar_min.php"); ?>
 	<!-- End of NavBar -->
 
 <?php
@@ -13,7 +13,7 @@ require ('mysqli_connect.php');
 
 	if(isset($_GET['search'])){
 	$info = $_GET['search'];
-$q = "SELECT location_detail, destination_id AS id FROM destinations WHERE title LIKE '%" . $info . "%' OR location_detail LIKE '%" . $info . "%'" AND > 10; 
+$q = "SELECT location_detail, title AS id FROM destinations WHERE title LIKE '%" . $info . "%' OR location_detail LIKE '%" . $info . "%'" ; 
 
 echo $q;
 
@@ -29,11 +29,11 @@ $result = mysqli_query($dbcon, $q) or die ('bad query');
 	}
 }
 	else{
-	echo "<p> Sorry but your search result returned 0 items<p>";
+	echo "<h1> Sorry but your search result returned 0 items<h1>";
 	}
 ?>
  	    <!-- Start of Footer -->
-<?php include("footer.php"); ?>
+<?php include("footer_min.php"); ?>
 	<!-- End of Footer -->
 </body>
 </html

@@ -11,51 +11,51 @@
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://leaptrip.com/index.php</loc>
+  <loc>http://leaptrip.com/index_min.php</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://leaptrip.com/about.php</loc>
+  <loc>http://leaptrip.com/about_min.php</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://leaptrip.com/packages.php</loc>
+  <loc>http://leaptrip.com/packages_min.php</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://leaptrip.com/destination.php?id=1</loc>
+  <loc>http://leaptrip.com/destination_min.php?id=1</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://leaptrip.com/destination.php?id=2</loc>
+  <loc>http://leaptrip.com/destination_min.php?id=2</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://leaptrip.com/destination.php?id=3</loc>
+  <loc>http://leaptrip.com/destination_min.php?id=3</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://leaptrip.com/destination.php?id=4</loc>
+  <loc>http://leaptrip.com/destination_min.php?id=4</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://leaptrip.com/destination.php?id=5</loc>
+  <loc>http://leaptrip.com/destination_min.php?id=5</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://leaptrip.com/destination.php?id=6</loc>
+  <loc>http://leaptrip.com/destination_min.php?id=6</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://leaptrip.com/destination.php?id=7</loc>
+  <loc>http://leaptrip.com/destination_min.php?id=7</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://leaptrip.com/destination.php?id=8</loc>
+  <loc>http://leaptrip.com/destination_min.php?id=8</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://leaptrip.com/destination.php?id=9</loc>
+  <loc>http://leaptrip.com/destination_min.php?id=9</loc>
   <priority>0.80</priority>
 </url>
 <url>
@@ -63,51 +63,51 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://leaptrip.com/www.linkedin.com/in/index.php</loc>
+  <loc>http://leaptrip.com/www.linkedin.com/in/index_min.php</loc>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://leaptrip.com/www.linkedin.com/in/about.php</loc>
+  <loc>http://leaptrip.com/www.linkedin.com/in/about_min.php</loc>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://leaptrip.com/www.linkedin.com/in/packages.php</loc>
+  <loc>http://leaptrip.com/www.linkedin.com/in/packages_min.php</loc>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://leaptrip.com/www.linkedin.com/in/destination.php?id=1</loc>
+  <loc>http://leaptrip.com/www.linkedin.com/in/destination_min.php?id=1</loc>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://leaptrip.com/www.linkedin.com/in/destination.php?id=2</loc>
+  <loc>http://leaptrip.com/www.linkedin.com/in/destination_min.php?id=2</loc>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://leaptrip.com/www.linkedin.com/in/destination.php?id=3</loc>
+  <loc>http://leaptrip.com/www.linkedin.com/in/destination_min.php?id=3</loc>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://leaptrip.com/www.linkedin.com/in/destination.php?id=4</loc>
+  <loc>http://leaptrip.com/www.linkedin.com/in/destination_min.php?id=4</loc>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://leaptrip.com/www.linkedin.com/in/destination.php?id=5</loc>
+  <loc>http://leaptrip.com/www.linkedin.com/in/destination_min.php?id=5</loc>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://leaptrip.com/www.linkedin.com/in/destination.php?id=6</loc>
+  <loc>http://leaptrip.com/www.linkedin.com/in/destination_min.php?id=6</loc>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://leaptrip.com/www.linkedin.com/in/destination.php?id=7</loc>
+  <loc>http://leaptrip.com/www.linkedin.com/in/destination_min.php?id=7</loc>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://leaptrip.com/www.linkedin.com/in/destination.php?id=8</loc>
+  <loc>http://leaptrip.com/www.linkedin.com/in/destination_min.php?id=8</loc>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://leaptrip.com/www.linkedin.com/in/destination.php?id=9</loc>
+  <loc>http://leaptrip.com/www.linkedin.com/in/destination_min.php?id=9</loc>
   <priority>0.51</priority>
 </url>
 </urlset>

@@ -9,9 +9,8 @@
     <link rel="shortcut icon" href="_images/leaptrip_logo/leaptrip.ico" type="image/x-icon" />
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/full-slider.css">
-    <link rel="stylesheet" type="text/css" href="css/custom.css">
-    <link rel="stylesheet" type="text/css" href="webicons.css">
+    <link rel="stylesheet" type="text/css" href="css/custom_min.css">
+    <link rel="stylesheet" type="text/css" href="webicons_min.css">
     <link rel="stylesheet" href="css/fonts/stylesheet.css" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="css/mystyle.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>

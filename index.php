@@ -1,14 +1,14 @@
 <?php $page_title="Leap Trip | Home"; ?>
-<?php include("head.php"); ?>
+<?php include("head_min.php"); ?>
 
 <body>
 	<?php include ("analyticstracking.php"); ?>
 	<!-- Start of NavBar -->
-<?php include("navbar.php"); ?>
+<?php include("navbar_min.php"); ?>
 	<!-- End of NavBar -->
 
 	<!-- Start of Slider -->
-<?php include("slider.php"); ?>
+<?php include("slider_min.php"); ?>
     <!-- END OF SLIDER -->
 
 <!-- Start of First Row -->
@@ -91,7 +91,7 @@
     <!-- End of Third Row -->
 
     <!-- Start of Footer -->
-<?php include("footer.php"); ?>
+<?php include("footer_min.php"); ?>
 	<!-- End of Footer -->
 </body>
 </html>
