@@ -1,9 +1,9 @@
 <?php $page_title="Leap Trip | About"; ?>
-<?php include("head_min.php"); ?>
+<?php include("head.php"); ?>
 <body>
 <?php include ("analyticstracking.php"); ?>
-<?php include("navbar_min.php"); ?>
-<?php include("video_min.php"); ?>
+<?php include("navbar.php"); ?>
+<?php include("video.php"); ?>
 <div class="index_main_content_wrapper">
 <section id="tweed" data-speed="6" data-type="background">
 <h1 class="text-center font">Leap Trip</h1>
@@ -19,9 +19,9 @@
 <h2 class="text-center">Jared Brashears</h2>
 <h3 class="text-center">Project Manager</h3>
 <p>I'm a normal person like everyone else, at least that's what I keep telling myself. I'm really a person whose had the good fortune to experience many things in life, some good and some bad. Experience keeps people relevant and reputable.</p>
-<a href="#" class="webicon facebook" title="Jared's Facebook">Facebook</a>
-<a href="#" class="webicon twitter" title="Jared's Twitter">Twitter</a>
-<a href="#" class="webicon linkedin" title="Jared's LinkedIn">LinkedIn</a>
+<a href="https://www.facebook.com/jared.brashears.7" class="webicon facebook" title="Jared's Facebook">Facebook</a>
+<a href="https://twitter.com/jared102000" class="webicon twitter" title="Jared's Twitter">Twitter</a>
+<a href="https://www.linkedin.com/pub/jared-brashears/aa/a90/a69" class="webicon linkedin" title="Jared's LinkedIn">LinkedIn</a>
 </div>
 </div>
 </div>
@@ -54,6 +54,6 @@
 </div>
 </section>
 </div>
-<?php include("footer_min.php"); ?>
+<?php include("footer.php"); ?>
 </body>
 </html>
