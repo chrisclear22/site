@@ -1,13 +1,13 @@
 <?php $page_title="Leap Trip | Bookings"; ?>
-<?php include("head_min.php"); ?>
+<?php include("head.php"); ?>
 <body>
 <?php include ("analyticstracking.php"); ?>
 	
 	<!-- Start of NavBar -->
-<?php include("navbar_min.php"); ?>
+<?php include("navbar.php"); ?>
 	<!-- End of NavBar -->
 
- <?php include("jumbotron_min.php"); ?>
+ <?php include("jumbotron.php"); ?>
  <?php 
             require ('mysqli_connect.php'); 
 
@@ -975,7 +975,7 @@
 </div>
 
     <!-- Start of Footer -->
-<?php include("footer_min.php"); ?>
+<?php include("footer.php"); ?>
 	<!-- End of Footer -->
 
 

@@ -1,10 +1,10 @@
 <?php $page_title="Leap Trip | Search"; ?>
-<?php include("head_min.php"); ?>
+<?php include("head.php"); ?>
 <body class="search">
 <?php include ("analyticstracking.php"); ?>
 	
 	<!-- Start of NavBar -->
-<?php include("navbar_min.php"); ?>
+<?php include("navbar.php"); ?>
 	<!-- End of NavBar -->
 
 <?php
@@ -33,7 +33,7 @@ $result = mysqli_query($dbcon, $q) or die ('bad query');
 	}
 ?>
  	    <!-- Start of Footer -->
-<?php include("footer_min.php"); ?>
+<?php include("footer.php"); ?>
 	<!-- End of Footer -->
 </body>
 </html

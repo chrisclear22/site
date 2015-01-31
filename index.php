@@ -4,11 +4,11 @@
 <body>
 	<?php include ("analyticstracking.php"); ?>
 	<!-- Start of NavBar -->
-<?php include("navbar_min.php"); ?>
+<?php include("navbar.php"); ?>
 	<!-- End of NavBar -->
 
 	<!-- Start of Slider -->
-<?php include("slider_min.php"); ?>
+<?php include("slider.php"); ?>
     <!-- END OF SLIDER -->
 
 <!-- Start of First Row -->
@@ -91,7 +91,7 @@
     <!-- End of Third Row -->
 
     <!-- Start of Footer -->
-<?php include("footer_min.php"); ?>
+<?php include("footer.php"); ?>
 	<!-- End of Footer -->
 </body>
 </html>
