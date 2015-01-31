@@ -27,7 +27,7 @@
                         echo '<div class="img-caption">';
                         echo '<h2 class="font">' . $row['title'] . '</h2>';
                         echo '<p>' . $row['price'] . '</p>';
-                        echo '<a href="destination_min.php?id=' . $row['id'] . '"><span class="btn center-block">More Info</span></a>';
+                        echo '<a href="destination.php?id=' . $row['id'] . '"><span class="btn center-block">More Info</span></a>';
                         echo '</div> </div>';}
                         mysqli_free_result($result);
                     } else{
@@ -74,7 +74,7 @@
                         echo '<div class="img-caption">';
                         echo '<h2 class="font">' . $row['title'] . '</h2>';
                         echo '<p>' . $row['price'] . '</p>';
-                        echo '<a href="destination_min.php?id=' . $row['id'] . '"><span class="btn center-block">More Info</span></a>';
+                        echo '<a href="destination.php?id=' . $row['id'] . '"><span class="btn center-block">More Info</span></a>';
                         echo '</div> </div>';}
                         mysqli_free_result($result);
                     } else{
