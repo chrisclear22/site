@@ -907,7 +907,7 @@
     </div>
     <div class="col-xs-4">
     <label for="cost">Cost</label>
-    <input class="form-control" type="text" name="cost" id="cost" value="" readonly="readonly">
+    <input class="form-control" type="text" name="cost" id="cost" value="<?php echo $row['price'] ;?>" readonly="readonly">
     </div>
     </div>
   </fieldset>

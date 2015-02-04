@@ -37,10 +37,10 @@
                     } 
                     ; ?> 
             </div>
+        </div>  
+        </section>   
         </div>
-        
-        </div>
-</section>
+
    <!-- End of First Row -->
  
    <!-- Start of Second Row -->     
@@ -87,7 +87,7 @@
         </div>
         </div>
 </section>
-</div>
+
     <!-- End of Third Row -->
 
     <!-- Start of Footer -->

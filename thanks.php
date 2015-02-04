@@ -4,7 +4,7 @@
 <body class="thanks">
 <?php include ("analyticstracking.php"); ?>
 	<!-- Start of NavBar -->
-<?php include("navbar_min.php"); ?>
+<?php include("navbar.php"); ?>
 	<!-- End of NavBar -->
 
 

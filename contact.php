@@ -11,9 +11,7 @@
 <div class="container top_container">
   <div class="row">
     <div class="jumbotron col-xs-12">
-      <h1></h1>
-      <p></p>
-      <p></p>
+    
     </div>
   </div>
     <div class="row contact-sect">
@@ -41,7 +39,7 @@
               </div>
               <div class="form-group">
                 <label for="inputName">Name: First &amp; Last</label>
-                <input type="custName" class="form-control" id="inputName" name="inputName" placeholder="jon smith">
+                <input type="text" class="form-control" id="inputName" name="inputName" placeholder="jon smith">
               </div>
               <div class="form-group">
                 <label for="inputPhone">Phone &#35;</label>

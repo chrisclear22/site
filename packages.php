@@ -1,5 +1,5 @@
 <?php $page_title="Leap Trip | Vacations"; ?>
-<?php include("head_min.php"); ?>
+<?php include("head.php"); ?>
 <body>
 <?php include ("analyticstracking.php"); ?>
 		<!-- Start of NavBar -->
@@ -37,6 +37,6 @@
         </div>       
 </section>
 </div>
-<?php include("footer_min.php"); ?>
+<?php include("footer.php"); ?>
 </body>
 </html>

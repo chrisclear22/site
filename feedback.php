@@ -11,9 +11,9 @@ $messageproper =
 "This message was sent from:\n" .
 "Human Resources at Leap Trip\n" .
 "------------------------------------------------------------\n" .
-"Name of Sender:". $name . "\n" .
-"Email of Sender:" . $email . "\n" .
-"Phone Number:" . $phone . "\n" .
+"Name of Sender: ". $name . "\n" .
+"Email of Sender: " . $email . "\n" .
+"Phone Number: " . $phone . "\n" .
 "------------------------------------------------------------\n\n" .
 " " . $comment . "  " .
 "\n\n------------------------------------------------------------\n" ;
