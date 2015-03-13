@@ -202,7 +202,8 @@ form.book{
 	margin-top: 20px;
 }
 body{
-	background-image: url(../_images/tweed.png);
+	color: #000;
+	background-color: #fff;
 }
 div.col-xs-3 #expire{
 	float: right;
@@ -260,7 +261,6 @@ body.search p{
 	height: 45px;
 }
 .loc-details, .loc-name, .loc-activities, .loc-dining, .loc-weath{
-	color: rgba(240,230,225,1);
 	line-height: 2em;
 }
 

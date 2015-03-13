@@ -3,7 +3,7 @@
 <body>
 <?php include ("analyticstracking.php"); ?>
 		<!-- Start of NavBar -->
-<?php include("navbar_.php"); ?>
+<?php include("navbar.php"); ?>
 	<!-- End of NavBar -->
 
 

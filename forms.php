@@ -9,7 +9,7 @@
 
  <?php include("jumbotron.php"); ?>
  <?php 
-            require ('mysqli_connect.php'); 
+            require_once('mysqli_connect.php'); 
 
             if ((isset($_GET['id'])) && (is_numeric($_GET['id']))) {
               $id = $_GET['id'];

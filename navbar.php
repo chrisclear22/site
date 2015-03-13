@@ -21,10 +21,10 @@
       </ul>
       <form class="navbar-form navbar-right" action="search.php" method="GET" role="search">
         <div class="form-group">
-        <label for="search" class="hidden"></label>
+        <label for="search" class="hidden">hidden</label>
           <input type="text" id="search" name="search" class="form-control">
         </div>
-        <input type="submit" class="btn btn-default nav-search-button" id="submit" name="submit">
+        <input type="submit" class="btn btn-default nav-search-button" id="submit" name="submit" value="Search">
       </form>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->

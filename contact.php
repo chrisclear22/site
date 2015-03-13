@@ -35,11 +35,11 @@
             <form method="post" class="contact" action="feedback.php">
               <div class="form-group">
                 <label for="inputEmail1">Email address</label>
-                <input type="email" class="form-control" id="inputEmail1" name="inputEmail1" placeholder="jon@leaptrip.com">
+                <input type="email" class="form-control" id="inputEmail1" name="inputEmail1" placeholder="jon@leaptrip.com" required>
               </div>
               <div class="form-group">
                 <label for="inputName">Name: First &amp; Last</label>
-                <input type="text" class="form-control" id="inputName" name="inputName" placeholder="jon smith">
+                <input type="text" class="form-control" id="inputName" name="inputName" placeholder="jon smith" required>
               </div>
               <div class="form-group">
                 <label for="inputPhone">Phone &#35;</label>
