@@ -7,7 +7,7 @@
                 <div class="carousel-caption">
                     <h1 class="font">Paris</h1>
                     <h4>FROM</h4>
-                    <h2>$1,680</h2>
+                    <h2>$3,680</h2>
                 </div>
             </div>
             <div class="item">
@@ -16,7 +16,7 @@
                 <div class="carousel-caption">
                     <h1 class="font">Kauai</h1>
                     <h4>FROM</h4>
-                    <h2>$1,200</h2>
+                    <h2>$2,200</h2>
                 </div>
             </div>
             <div class="item">
@@ -25,7 +25,7 @@
                 <div class="carousel-caption">
                     <h1 class="font">Bora Bora</h1>
                     <h4>FROM</h4>
-                    <h2>$1,250</h2>
+                    <h2>$2,250</h2>
                 </div>
             </div>
         </div>
