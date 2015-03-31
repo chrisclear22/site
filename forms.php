@@ -26,7 +26,7 @@
             ?>
 
     <div class="container">
-<form role="form" id="book" class="book" action="thanks.php" method="post">
+<form role="form" id="book" class="book" action="tripemail.php" method="post">
   <fieldset>
   <legend>Personal Information</legend>
   <div class="row">

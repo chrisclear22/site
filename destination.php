@@ -21,7 +21,7 @@
               $result = mysqli_query($dbcon, $q);
               if ($result){
                 $row = mysqli_fetch_array($result);
-              echo '<img class="img-responsive" src="' . $row['top_image'] . '" alt="destination image">';
+              echo '<img class="img-responsive topimage" src="' . $row['top_image'] . '" alt="destination image">';
               mysqli_free_result($result);
                }
                 else{

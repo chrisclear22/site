@@ -19,13 +19,13 @@
                 $result = mysqli_query($dbcon, $q);
                 if($result){
                     while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){
-                        echo '<div class="col-lg-4 col-med-4 col-sm-6 col-xs-12">';
+                        echo '<a href="destination.php?id=' . $row['id'] . '"><div class="col-lg-4 col-med-4 col-sm-6 col-xs-12">';
                         echo '<img class="img-thumbnail" src="' . $row['image'] . '" alt="' . $row['alt'] . '">';
                         echo '<div class="img-caption">';
                         echo '<h2 class="font">' . $row['title'] . '</h2>';
                         echo '<p>' . $row['price'] . '</p>';
                         echo '<a href="destination.php?id=' . $row['id'] . '"><span class="btn center-block">More Info</span></a>';
-                        echo '</div> </div>';}
+                        echo '</div> </div></a>';}
                         mysqli_free_result($result);
                     } else{
                         echo '<p class="error">The current users could not be retrieved. We apologize for any inconvenience.</p>';

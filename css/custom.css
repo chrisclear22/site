@@ -171,6 +171,10 @@ color: #00aeef;
 #googleMap{
 	margin-bottom: 1.5em;
 }
+.topimage{
+	max-width: 800px;
+	margin: 0 auto;
+}
 /*---------------------*/
 
 
