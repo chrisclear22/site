@@ -105,7 +105,7 @@ h2.font{
 }
 h3.thanks, h4.thanks, h5.thanks{
 	text-align: center;
-	color: #fff;
+	color: #000;
 	margin-bottom: 7em;
 
 }
@@ -200,10 +200,12 @@ legend{
 	color: white;
 }
 form.book{
-	padding-bottom: 4em;
-	background-image: url(../_images/tweed.png);
+	padding: 1em;
+	background-color: #969696;
 	color: white;
 	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 7px;
 }
 body{
 	color: #000;
@@ -250,7 +252,7 @@ body.search p{
 /*-------------  Destinations Page Styles -----------------*/
 /*---------------------------------------------------------*/
 .top_container {
-	margin-top: 100px;
+	margin-top: 130px;
 }
 .loca_details {
 	margin-bottom: 2em;
@@ -299,9 +301,11 @@ body.search p{
 }
 h1.thanks{
 	margin:5em auto 1em;
+	color: #000;
 }
 h2.thanks{
 	margin-bottom: 1em;
+	color: #000;
 }
 body.thanks{
 	height:initial;
@@ -314,10 +318,20 @@ body.thanks{
 
 /*-------------  Contact Page Styles ----------------------*/
 /*---------------------------------------------------------*/
-
+#body-2{
+	background-color: #0092db;
+}
+#body-2 h1{
+	font-family: 'nexa_rust';
+	font-size: 4.5em;
+	color:#fff;
+	text-shadow:5px 5px #000;
+}
 #body-2 h2{
 	font-family: 'nexa_rust';
-	font-size: 3em;
+	font-size: 2em;
+	color: #fff;
+	text-shadow:2px 2px #000;
 }
 #body-2 h3{
 	font-size: 1.8em;
@@ -337,9 +351,9 @@ form.contact{
 	margin-bottom: .5em;
 }
 .cont-desc1 {
-	font-size: 2em;
-	background-color: #969696;
+	font-size: 1.4em;
 	margin-bottom: 30px;
+	color: #fff;
 }
 .cont-desc1 h4 a {
 	color: rgba(241,94,34,1)
@@ -357,8 +371,9 @@ form.contact{
 }
 .cont-form {
 	font-size: 2em;
-	background: #969696;
 	margin-bottom: 1em;
+	color: #fff;
+
 	
 }
 /*-------------  End Contact Page Styles ----------------------*/
@@ -374,6 +389,9 @@ form.contact{
 	bottom:-15px;
 	line-height: .5em;
 	font-size: .7em;
+}
+#body-2 h1{
+	margin-top: 100px;
 }
 .container.imgs{
 	max-width: 365px;
@@ -433,6 +451,9 @@ form.book{
 } 
 .carousel-caption{
 	bottom: 50px;
+}
+#body-2 h1{
+	margin-top: 150px;
 }
 .included{
 	display: none;
@@ -505,6 +526,9 @@ a.large{
 @media all and (min-width: 992px) and (max-width: 1199px) { 
 .carousel, .item, .active{
 	max-height: 450px;
+}
+#body-2 h1{
+	margin-top: 150px;
 }
 .carousel-caption{
 	bottom: 50px;

@@ -26,8 +26,8 @@
                     <h1 class="font">Bora Bora</h1>
                     <h4>FROM</h4>
                     <h2>$2,250</h2>
-                </div>
-            </div></a>
+                </div></a>
+            </div>
         </div>
 
         <!-- Controls -->

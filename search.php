@@ -36,4 +36,4 @@ $result = mysqli_query($dbcon, $q) or die ('bad query');
 <?php include("footer.php"); ?>
 	<!-- End of Footer -->
 </body>
-</html
+</html>
